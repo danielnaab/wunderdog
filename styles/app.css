@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif; }
+  body.contact form label {
+    display: block; }
+  body.contact form input, body.contact form textarea {
+    display: block;
+    margin-bottom: 10px; }
+  body.testimonials article {
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 10px; }
+
+header, footer {
+  text-align: center; }
+  header ul, footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    header ul li, footer ul li {
+      display: inline; }
+      header ul li:not(:last-of-type):after, footer ul li:not(:last-of-type):after {
+        content: ' \00b7'; }
