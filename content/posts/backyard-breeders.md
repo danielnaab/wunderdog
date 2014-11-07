@@ -4,6 +4,7 @@ category: blog
 layout: blog
 title: Backyard Breeders.... Who are They?
 date: 2012-02-01
+allowComments: true
 ---
 
 ## What does this title mean?

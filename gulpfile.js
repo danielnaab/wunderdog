@@ -145,7 +145,13 @@ gulp.task('testimonials', function () {
             },
             function (cb) {
                 testimonials.sort(function (a, b) {
-                    return b.date - a.date
+                    if (a.author < b.author) {
+                        return -1;
+                    }
+                    if (a.author > b.author) {
+                        return 1;
+                    }
+                    return 0;
                 })
                 site.testimonials = testimonials
                 cb()
@@ -326,4 +332,4 @@ gulp.task('dist', ['default'], function() {
 gulp.task('deploy', ['dist'], function () {
     return gulp.src('./dist/**/*')
         .pipe(deploy());
-});
+})

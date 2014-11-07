@@ -12,16 +12,16 @@
     <p>{{page.date|date('M j, Y')}}</p>
     {{content|safe}}
 </article>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    'use strict';
-    var disqusShortname = 'wunderdog';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqusShortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</aside>
+{% if page.allowComments %}
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        'use strict';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//wunderdog.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
 {% endblock %}

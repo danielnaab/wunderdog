@@ -4,6 +4,7 @@ category: blog
 layout: blog
 title: Winter Wolf Ecology Workshop 2014
 date: 2014-02-01
+allowComments: true
 ---
 
 February in northern Wisconsin is not most couple's idea of a "getaway." But, if you are Lynn and Peter (Wunderli), you might beg to differ!

@@ -4,6 +4,7 @@ category: blog
 layout: blog
 title: Gilda The Great Book Update!
 date: 2012-05-01
+allowComments: true
 ---
 
 As most of our clients have already heard, Lynn and her daughter Laney (an artist/illustrator/animator/videographer) have started their first book about "Gilda," the sweet little character Laney rescued from a shelter out west. Laney has begun the illustrations, and we are hoping to complete the book in 2013.

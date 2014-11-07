@@ -4,6 +4,7 @@ category: blog
 layout: blog
 title: To Crate, Or Not To Crate... That Is The Question!
 date: 2012-01-01
+allowComments: true
 ---
 
 Nothing brings more to the table when I first meet with a new client than crate training. Most humans view crating as a "prison," or consider it cruel to confine a puppy or dog.
