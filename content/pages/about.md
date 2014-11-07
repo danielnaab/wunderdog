@@ -1,7 +1,6 @@
 ---
 published: true
 layout: page
-permalink: about/
 title: Our Mission and Philosophy
 ---
 

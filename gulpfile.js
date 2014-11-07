@@ -4,6 +4,7 @@ var _ = require('underscore'),
     argv = require('yargs').argv,
     browserify = require('browserify'),
     connect = require('gulp-connect'),
+    deploy = require('gulp-gh-pages'),
     frontMatter = require('gulp-front-matter'),
     gulp = require('gulp'),
     gulpif = require('gulp-if'),
@@ -35,10 +36,18 @@ var DEBUG = (argv.debug || process.env.NODE_DEBUG) !== 'false'
 
 var site = {
     'title': 'Wunderdog K-9 Care & Training',
-    'url': 'http://www.thewunderdog.com',
+    'url': 'http://localhost:9000',
+    'urlRoot': '/',
     'author': 'Lynn Wunderli',
     'email': 'wunderdogwi@yahoo.com',
     'time': new Date()
+}
+
+
+// This is deployed to blog.crushingpennies.com/thewunderdog/ (for now).
+if (argv._.indexOf('deploy') > -1) {
+    site.url = 'http://blog.crushingpennies.com/wunderdog'
+    site.urlRoot = '/wunderdog/'
 }
 
 
@@ -312,3 +321,9 @@ gulp.task('watch', ['default'], function () {
 gulp.task('dist', ['default'], function() {
     return scripts(false)
 })
+
+
+gulp.task('deploy', ['dist'], function () {
+    return gulp.src('./dist/**/*')
+        .pipe(deploy());
+});

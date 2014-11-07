@@ -1,14 +1,13 @@
 <div class="post-snippet">
     <h2>{{post.title}}</h2>
-    <p class="pull-right">
+    <p>
         {% for tag in post.tags %}
-            <a href="/tag/{{tag}}.html">{{tag}}</a>
+            <a href="{{site.urlRoot}}tag/{{tag}}.html">{{tag}}</a>
         {% endfor %}
     </p>
-    <p class="text-muted">{{post.date|date('M j, Y')}}</p>
+    <p>{{post.date|date('M j, Y')}}</p>
     <p>
         {{post.summary|truncate(800)|safe}}
     </p>
     <a href="{{post.url}}">Read more...</a>
-    <div class="clearfix"></div>
 </div>

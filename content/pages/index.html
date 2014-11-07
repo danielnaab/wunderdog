@@ -5,12 +5,12 @@
 {% block content %}
     <h1>{{page.title}}</h1>
     <article>
-    {% for post in site.posts %}
         <!-- Three most recent posts -->
-        {% if loop.index < 4 %}
-            {% include "include/_post_snippet.html" %}
-        {% endif %}
-    {% endfor %}
-    <a href="/blog.html">Most Posts</a>
+        {% for post in site.posts %}
+            {% if loop.index < 4 %}
+                {% include "include/_post_snippet.html" %}
+            {% endif %}
+        {% endfor %}
+        <a href="{{site.urlRoot}}blog.html">Most Posts</a>
     </article>
 {% endblock %}

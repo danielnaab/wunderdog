@@ -1,0 +1,14 @@
+---
+branches:
+  only:
+  - source
+language: node_js
+node_js:
+  - "0.10"
+before_script:
+  - sudo npm install -g gulp
+script:
+  - gulp deploy
+env:
+  global:
+  - secure: "NX4GvEdVLMeXTi6tKUxrO0gglwEsGuRHaiMvkuUpgDU/mBuL9ssWX6ylCOuGRJROG4n3y8tx30OScQ1uoint0bHdi6o+bZ1f/cGkM3SVf2UAa8gP+TlzACh1xf3FjsbI6Xt2u/6mYxoE24VrFFdOMYV0xKxlHpRPz2rxCIijdCY="

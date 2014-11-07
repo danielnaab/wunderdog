@@ -1,7 +1,6 @@
 ---
 published: true
 layout: page
-permalink: services/
 title: Services We Offer
 ---
 
