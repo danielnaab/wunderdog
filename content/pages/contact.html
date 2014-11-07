@@ -1,0 +1,26 @@
+{% extends "page.html" %}
+
+{% set page.title = "Contact" %}
+{% set page.nav = "contact" %}
+
+{% block content %}
+    <form method="POST" action="http://forms.brace.io/danielnaab@gmail.com">
+        <div>
+            <label for="name">Name</label>
+            <input name="name" type="name" class="form-control" id="name" placeholder="Enter name" required>
+        </div>
+        <div>
+            <label for="email">Email address</label>
+            <input name="_replyto" type="email" class="form-control" id="email" placeholder="Enter email" required>
+        </div>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input name="_replyto" type="tel" class="form-control" id="phone" placeholder="Enter phone number" required>
+        </div>
+        <div>
+            <label for="exampleTextArea">Your Message</label>
+            <textarea name="message" class="form-control" rows="6" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+{% endblock %}

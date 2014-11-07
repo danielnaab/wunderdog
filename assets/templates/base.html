@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{page.title}} - {{site.title}}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="{{site.author}}" />
+        <link href="/styles/app.css" rel="stylesheet" media="screen" />
+        <link rel="alternate" type="application/atom+xml" title="Wunderdog Blog Feed" href="/atom.xml" />
+    </head>
+    <body class="{{page.nav}}">
+        <header>
+            <h3>{{site.title}}</h3>
+            <ul>
+                <li {% if page.nav == "home"%}class="active"{% endif%}>
+                    <a href="/">Home</a>
+                </li>
+                <li {% if page.nav == "testimonials"%}class="active"{% endif%}>
+                    <a href="/testimonials.html">Testimonials</a>
+                </li>
+                <li {% if page.nav == "services"%}class="active"{% endif%}>
+                    <a href="/services.html">Services</a>
+                </li>
+                <li {% if page.nav == "contact"%}class="active"{% endif%}>
+                    <a href="/contact.html">Contact</a>
+                </li>
+                <li {% if page.nav == "about"%}class="active"{% endif%}>
+                    <a href="/about.html">About</a>
+                </li>
+            </ul>
+        </header>
+        {% block content %}{% endblock %}
+        <footer>
+            <ul>
+                <li>
+                    &copy; {{site.time|date('Y')}} Wunderdog LLC
+                </li>
+                <li>
+                    <a href="/atom.xml">RSS Feed</a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="/scripts/app.js"></script>
+    </body>
+</html>

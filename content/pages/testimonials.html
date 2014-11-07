@@ -1,0 +1,22 @@
+{% extends "page.html" %}
+{% set page.title = "Testimonials" %}
+{% set page.nav = "testimonials" %}
+
+{% block content %}
+    <h1>{{page.title}}</h1>
+    {% for testimonial in site.testimonials %}
+        <article>
+            <p>
+                {{testimonial.content|safe}}
+                <ul>
+                    {% for signee in testimonial.signees %}
+                        <li>{{signee}}, {{testimonial.authorLocation}}</li>
+                    {% endfor %}
+                    {% if !testimonial.signees %}
+                        <li>{{testimonial.author}}, {{testimonial.authorLocation}}</li>
+                    {% endif %}
+                </ul>
+            </p>
+        </article>
+    {% endfor %}
+{% endblock %}
