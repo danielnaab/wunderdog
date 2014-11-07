@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/danielnaab/wunderdog.svg)](https://travis-ci.org/danielnaab/wunderdog)
+
 Static site generator for Wunderdog LLC.
 
 Custom-built with [Gulp](http://gulpjs.com/), hosted with Github Pages, edited
