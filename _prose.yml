@@ -1,0 +1,66 @@
+prose:
+  rooturl: 'content'
+  siteurl: 'http://blog.crushingpennies.com/wunderdog/'
+  media: 'content/media'
+  metadata:
+    content/posts:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: "Uncheck to make this post hidden."
+          value: true
+          on: "true"
+          off: "false"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          help: "The blog post title"
+          placeholder: "Enter title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Publication Date"
+          help: "The publication date for this post."
+          placeholder: "Enter date in the form YYYY-MM-DD"
+      - name: "allowComments"
+        field:
+          element: "checkbox"
+          label: "Allow Comments"
+          help: "Allow users to comment with Disqus."
+          value: true
+          on: "true"
+          off: "false"
+    content/testimonials:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: "Uncheck to make this testimonial hidden."
+          value: true
+          on: "true"
+          off: "false"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          help: "The name of the author of this testimonial."
+          placeholder: "Enter author name"
+      - name: "authorLocation"
+        field:
+          element: "text"
+          label: "Author Location"
+          help: "The location of the author of this testimonial."
+          placeholder: "Enter author location"
+      - name: "authorUrl"
+        field:
+          element: "text"
+          label: "Author URL"
+          help: "A web URL for this author, if available."
+          placeholder: "Enter author URL"
+      - name: "signees"
+        field:
+          element: "hidden"
+          label: "Signees/signatories"
+          help: "If there is more than one author for this testimonial, enter them here."

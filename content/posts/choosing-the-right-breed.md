@@ -1,7 +1,5 @@
 ---
 published: true
-category: blog
-layout: blog
 title: Choosing The Right Breed For You and Your Family
 date: 2012-03-01
 allowComments: true

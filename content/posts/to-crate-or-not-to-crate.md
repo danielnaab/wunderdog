@@ -1,7 +1,5 @@
 ---
 published: true
-category: blog
-layout: blog
 title: To Crate, Or Not To Crate... That Is The Question!
 date: 2012-01-01
 allowComments: true

@@ -1,7 +1,5 @@
 ---
 published: true
-category: blog
-layout: blog
 title: Winter Wolf Ecology Workshop 2014
 date: 2014-02-01
 allowComments: true

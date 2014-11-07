@@ -1,7 +1,5 @@
 ---
 published: true
-category: blog
-layout: blog
 title: Gilda The Great Book Update!
 date: 2012-05-01
 allowComments: true

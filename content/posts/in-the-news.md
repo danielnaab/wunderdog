@@ -1,7 +1,5 @@
 ---
 published: true
-category: blog
-layout: blog
 title: In The News...
 date: 2012-07-14
 allowComments: true
