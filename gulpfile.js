@@ -31,9 +31,9 @@ var _ = require('underscore'),
  * - gulp --debug=[true | false]
  * - export NODE_DEBUG=[true | false]
  */
-var USER_DEBUG = (argv.debug || process.env.NODE_DEBUG)
-var DEBUG
-if (USER_DEBUG === undefined && argv._[0] === 'deploy') {
+var DEBUG,
+    USER_DEBUG = (argv.debug || process.env.NODE_DEBUG)
+if (USER_DEBUG === undefined && argv._.indexOf('deploy') > -1) {
     DEBUG = false
 }
 else {

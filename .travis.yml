@@ -9,7 +9,7 @@ install:
   - npm install
 before_script:
   - git remote set-url origin "https://${GH_TOKEN}@github.com/danielnaab/wunderdog.git"
-  - git config --global user.email "danielnaab@gmail.com"
+  - git config --global user.email "dan@crushingpennies.com"
   - git config --global user.name "Travis-CI"
 script:
   - gulp deploy
