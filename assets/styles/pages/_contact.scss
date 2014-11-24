@@ -1,9 +1,14 @@
 form {
+    padding: 1em;
     label {
         display: block;
     }
     input, textarea {
         display: block;
         margin-bottom: 10px;
+        width: 100%;
+    }
+    button {
+        padding: 1em;
     }
 }

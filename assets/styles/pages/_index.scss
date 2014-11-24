@@ -3,9 +3,8 @@ h1 {
 }
 
 section {
-    &.about {
-        background-color: $wunderdog-accent;
-    }
+    margin-bottom: 15px;
+    padding: 5px;
     &.blog {
         display: table;
         background-color: $wunderdog-accent;
@@ -13,6 +12,21 @@ section {
             display: table-cell;
             width: 33%;
             .post-snippet {
+                padding: 10px;
+            }
+        }
+    }
+    &.testimonials {
+        display: table;
+        background-color: $wunderdog-accent;
+        article {
+            display: table-cell;
+            width: 33%;
+            img {
+                float: right;
+                padding: 5px;
+            }
+            p {
                 padding: 10px;
             }
         }

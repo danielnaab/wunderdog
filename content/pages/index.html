@@ -3,11 +3,25 @@
 {% set page.nav = "home" %}
 
 {% block content %}
-    <h3>About Us</h3>
-    <section class="about">
-        <a href="/about.html">Read about us...</a>
+    <h3><a href="testimonials.html">Recent Testimonials</a></h3>
+    <section class="testimonials">
+        <!-- Three most recent posts -->
+        {% for testimonial in site.testimonials %}
+            <article>
+                {% if loop.index < 4 %}
+                    <h3><a href="testimonials.html#testimonial-{{loop.index}}">{{testimonial.author}}, {{testimonial.authorLocation}}</a></h3>
+                    {% if testimonial.image %}
+                        <img src="images/testimonials/{{testimonial.image}}" alt="{{testimonial.author}}" />
+                    {% endif %}
+                    <p>
+                        {{testimonial.content|truncate(300)|safe}}
+                        <a href="testimonials.html#testimonial-{{loop.index}}">More...</a>
+                    </p>
+                {% endif %}
+            </article>
+        {% endfor %}
     </section>
-    <h3>Recent Blog Posts</h3>
+    <h3><a href="blog.html">Recent Blog Posts</a></h3>
     <section class="blog">
         <!-- Three most recent posts -->
         {% for post in site.posts %}
@@ -21,16 +35,5 @@
     <h3>Services</h3>
     <section class="services">
         <a href="/services.html">Services we offer...</a>
-    </section>
-    <h3>Featured Testimonials</h3>
-    <section class="testimonials">
-        <!-- Three most recent posts -->
-        {% for testimonial in site.testimonials %}
-            <article>
-                {% if loop.index < 4 %}
-                    {% include "include/_testimonial.html" %}
-                {% endif %}
-            </article>
-        {% endfor %}
     </section>
 {% endblock %}

@@ -4,7 +4,7 @@
 
 {% block content %}
     {% for testimonial in site.testimonials %}
-        <article class="testimonial-{{loop.index}}">
+        <article id="testimonial-{{loop.index}}">
             {% include "include/_testimonial.html" %}
         </article>
     {% endfor %}

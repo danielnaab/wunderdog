@@ -5,21 +5,22 @@
 
 {% block content %}
     <form method="POST" action="http://forms.brace.io/danielnaab@gmail.com">
+        <legend>Please contact us with your questions.</legend>
         <div>
             <label for="name">Name</label>
-            <input name="name" type="name" class="form-control" id="name" placeholder="Enter name" required>
+            <input name="name" type="name" class="form-control" id="name" placeholder="Enter your name" required>
         </div>
         <div>
             <label for="email">Email address</label>
-            <input name="_replyto" type="email" class="form-control" id="email" placeholder="Enter email" required>
+            <input name="_replyto" type="email" class="form-control" id="email" placeholder="Enter your email address" required>
         </div>
         <div>
             <label for="phone">Phone Number</label>
-            <input name="_replyto" type="tel" class="form-control" id="phone" placeholder="Enter phone number" required>
+            <input name="_replyto" type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
         </div>
         <div>
             <label for="exampleTextArea">Your Message</label>
-            <textarea name="message" class="form-control" rows="6" required></textarea>
+            <textarea name="message" class="form-control" rows="6" placeholder="Enter your message"  required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Send</button>
     </form>
