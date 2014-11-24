@@ -5,18 +5,7 @@
 {% block content %}
     {% for testimonial in site.testimonials %}
         <article class="testimonial-{{loop.index}}">
-            {% if testimonial.image %}
-                <img src="images/testimonials/{{testimonial.image}}" alt="{{testimonial.author}}" />
-            {% endif %}
-            {{testimonial.content|safe}}
-            <ul>
-                {% for signee in testimonial.signees %}
-                    <li>{{signee}}, {{testimonial.authorLocation}}</li>
-                {% endfor %}
-                {% if !testimonial.signees %}
-                    <li>{{testimonial.author}}, {{testimonial.authorLocation}}</li>
-                {% endif %}
-            </ul>
+            {% include "include/_testimonial.html" %}
         </article>
     {% endfor %}
 {% endblock %}

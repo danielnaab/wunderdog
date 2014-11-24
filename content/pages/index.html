@@ -7,10 +7,6 @@
     <section class="about">
         <a href="/about.html">Read about us...</a>
     </section>
-    <h3>Services</h3>
-    <section class="services">
-        <a href="/services.html">Services we offer...</a>
-    </section>
     <h3>Recent Blog Posts</h3>
     <section class="blog">
         <!-- Three most recent posts -->
@@ -18,6 +14,21 @@
             <article>
                 {% if loop.index < 4 %}
                     {% include "include/_post_snippet.html" %}
+                {% endif %}
+            </article>
+        {% endfor %}
+    </section>
+    <h3>Services</h3>
+    <section class="services">
+        <a href="/services.html">Services we offer...</a>
+    </section>
+    <h3>Featured Testimonials</h3>
+    <section class="testimonials">
+        <!-- Three most recent posts -->
+        {% for testimonial in site.testimonials %}
+            <article>
+                {% if loop.index < 4 %}
+                    {% include "include/_testimonial.html" %}
                 {% endif %}
             </article>
         {% endfor %}

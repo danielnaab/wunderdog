@@ -23,10 +23,10 @@ body {
     a {
         text-decoration: none;
         &, &:visited {
-            color: $wunderdog-red;
+            color: black;
         }
         &:hover {
-            background-color: $wunderdog-text;
+            color: $wunderdog-red;
         }
     }
     .content {
@@ -60,6 +60,7 @@ body {
         background-size: cover;
         padding-top: 1em;
         position: relative;
+        text-shadow: 0 0 3px white;
         &:before {
             content: url(../images/logo-300.png);
             position: absolute;
@@ -113,6 +114,9 @@ body {
     }
     &.contact {
         @import "pages/contact";
+    }
+    &.blog {
+        @import "pages/blog";
     }
     &.post {
         @import "pages/post";
