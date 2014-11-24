@@ -1,4 +1,15 @@
 article {
-    padding: 10px;
+    @include clearfix;
+
+    padding: 20px;
     margin-bottom: 10px;
+    img {
+        float: left;
+        margin: 5px 10px 5px 0px;
+    }
+    ul {
+        float: right;
+        font-style: italic;
+    }
+    background-color: $wunderdog-accent;
 }

@@ -138,7 +138,11 @@ gulp.task('posts', ['cleanposts'], function () {
 
 
 gulp.task('testimonials', function () {
-    return gulp.src('content/testimonials/**/*.md')
+    // Copy testimonial images over.
+    var images = gulp.src('content/testimonials/*.jpg')
+        .pipe(gulp.dest('dist/images/testimonials'))
+
+    var testimonials = gulp.src('content/testimonials/**/*.md')
         .pipe(frontMatter({property: 'page', remove: true}))
         .pipe(marked())
         // Collect all the testimonials and place them on the site object.
@@ -164,6 +168,9 @@ gulp.task('testimonials', function () {
                 cb()
             })
         })())
+
+    return merge(images, testimonials)
+        .pipe(connect.reload())
 })
 
 

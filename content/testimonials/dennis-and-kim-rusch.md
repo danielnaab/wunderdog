@@ -4,6 +4,7 @@ author: Dennis & Kim Rusch
 authorLocation: Sandown, NH﻿﻿
 authorUrl:
 signees:
+image: dennis-and-kim-rusch.jpg
 ---
 
 To all pet owners:

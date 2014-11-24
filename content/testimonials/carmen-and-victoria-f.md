@@ -4,6 +4,7 @@ author: Carmen and Victoria F.
 authorLocation: Chester, NH
 authorUrl:
 signees:
+image: carmen-and-victoria-f.jpg
 ---
 
 Lynn Wunderli has cared for our little guy for over 2 years now and she has taught he and us so much about the precious relationship between people and their pets. Lynn has a day care that is more than just a place for our dog to go. She teaches obedience and socialization skills as part of her day care process and has found a way to get each dog to not only get along with other dogs, but to also "be friends." It is truly hard to describe, but imagine your dog arriving at day care and being welcomed by the other dogs as if they were all family.

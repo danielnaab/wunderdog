@@ -4,6 +4,7 @@ author: Marge L.
 authorLocation: Windham, NH﻿﻿
 authorUrl:
 signees:
+image: marge-l.jpg
 ---
 
 My dogs have been cared for and loved by our friend Lynn Wunderli. We have boarded our dogs with Lynn for over six years. When we first began, one of our dogs was older, blind and somewhat nervous as to where she was. Lynn and her family took such great care of our little Tucket. From feeding her by hand to giving her scents to find her own way in and out of the house put our mind at ease. She became so comfortable that even at her elder stage in life would get excited to go back.

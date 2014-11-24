@@ -4,6 +4,7 @@ author: Kathy and Jon R.
 authorLocation: Hampstead, NH﻿﻿
 authorUrl:
 signees:
+image: kathy-and-jon-r.jpg
 ---
 
 My name is Kathy Richard. My husband and I own two wonderful dogs. A Boxer, Rocky, and a German Shepherd, Dakota. We recently moved from a home with lots of space to a smaller home which does not provide adequate outdoor space. I was looking for a place to bring my dogs on a weekly basis where they could go have fun, exercise, and be socialized with other dogs. An employee of mine suggested bringing them to see Lynn at Wunderdog in NH.
