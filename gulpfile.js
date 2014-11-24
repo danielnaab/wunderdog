@@ -218,8 +218,21 @@ gulp.task('cleanimages', function () {
 
 
 gulp.task('images', function () {
-    return gulp.src('images/**/*')
+    return gulp.src('assets/images/**')
         .pipe(gulp.dest('dist/images'))
+        .pipe(connect.reload())
+})
+
+
+gulp.task('cleanfonts', function () {
+    return gulp.src(['dist/fonts'], {read: false})
+        .pipe(rimraf())
+})
+
+
+gulp.task('fonts', function () {
+    return gulp.src('assets/fonts/**')
+        .pipe(gulp.dest('dist/fonts'))
         .pipe(connect.reload())
 })
 
@@ -304,7 +317,7 @@ gulp.task('rss', ['posts'], function () {
 
 
 gulp.task('content', ['posts', 'pages', 'rss'])
-gulp.task('default', ['content', 'images', 'styles', 'favicon', 'rss'])
+gulp.task('default', ['content', 'images', 'fonts', 'styles', 'favicon', 'rss'])
 
 
 gulp.task('clean', function() {
@@ -317,6 +330,7 @@ gulp.task('watch', ['default'], function () {
     gulp.watch(['assets/templates/**'], ['content'])
     gulp.watch(['assets/styles/**'], ['styles'])
     gulp.watch(['assets/images/**'], ['images'])
+    gulp.watch(['assets/fonts/**'], ['fonts'])
 
     gulp.watch(['content/pages/**', 'content/testimonials/**'], ['pages'])
     gulp.watch(['content/posts/**'], ['posts', 'rss'])

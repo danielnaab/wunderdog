@@ -10,7 +10,6 @@
     </head>
     <body class="{{page.nav}}">
         <header>
-            <h3>{{site.title}}</h3>
             <ul>
                 <li {% if page.nav == "home"%}class="active"{% endif%}>
                     <a href="{{site.urlRoot}}">Home</a>
@@ -32,9 +31,10 @@
                 </li>
             </ul>
         </header>
-        <div class="content">
-            {% block content %}{% endblock %}
-        </div>
+        <section class="content">
+            <h1>{{page.title}}</h1>
+            <div class="page-content">{% block content %}{% endblock %}</div>
+        </section>
         <footer>
             <ul>
                 <li>

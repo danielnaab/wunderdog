@@ -34,5 +34,8 @@
     "vinyl-source-stream": "^1.0.0",
     "watchify": "^2.1.1",
     "yargs": "^1.3.2"
+  },
+  "dependencies": {
+    "zepto-browserify": "^1.1.3-0"
   }
 }

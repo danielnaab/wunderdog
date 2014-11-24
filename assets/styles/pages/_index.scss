@@ -1,0 +1,18 @@
+h1 {
+    display: none;
+}
+
+section.blog {
+    display: table;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: $wunderdog-accent;
+    article {
+        display: table-cell;
+        width: 33%;
+        .post-snippet {
+            padding: 10px;
+        }
+    }
+}
