@@ -4,18 +4,16 @@
 
 {% block content %}
     {% for testimonial in site.testimonials %}
-        <article>
-            <p>
-                {{testimonial.content|safe}}
-                <ul>
-                    {% for signee in testimonial.signees %}
-                        <li>{{signee}}, {{testimonial.authorLocation}}</li>
-                    {% endfor %}
-                    {% if !testimonial.signees %}
-                        <li>{{testimonial.author}}, {{testimonial.authorLocation}}</li>
-                    {% endif %}
-                </ul>
-            </p>
+        <article class="testimonial-{{loop.index}}">
+            {{testimonial.content|safe}}
+            <ul>
+                {% for signee in testimonial.signees %}
+                    <li>{{signee}}, {{testimonial.authorLocation}}</li>
+                {% endfor %}
+                {% if !testimonial.signees %}
+                    <li>{{testimonial.author}}, {{testimonial.authorLocation}}</li>
+                {% endif %}
+            </ul>
         </article>
     {% endfor %}
 {% endblock %}

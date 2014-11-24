@@ -3,12 +3,14 @@
 
 {% block content %}
 <article>
-    <div>
-        {% for tag in page.tags %}
-            <a href="/tag/{{tag}}.html">{{tag}}</a>
-        {% endfor %}
-    </div>
-    <p>{{page.date|date('M j, Y')}}</p>
+    <header>
+        <div class="tags">
+            {% for tag in page.tags %}
+                <a href="/tag/{{tag}}.html">{{tag}}</a>
+            {% endfor %}
+        </div>
+        <h3 class="published">{{page.date|date('M j, Y')}}</h3>
+    </header>
     {{content|safe}}
 </article>
 {% if page.allowComments %}

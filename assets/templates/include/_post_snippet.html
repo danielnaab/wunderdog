@@ -5,7 +5,7 @@
             <a href="{{site.urlRoot}}tag/{{tag}}.html">{{tag}}</a>
         {% endfor %}
     </p>
-    <p>{{post.date|date('M j, Y')}}</p>
+    <h3>{{post.date|date('M j, Y')}}</h3>
     <p>
         {{post.summary|truncate(300)|safe}}
     </p>

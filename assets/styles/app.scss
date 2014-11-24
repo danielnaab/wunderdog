@@ -1,11 +1,12 @@
 @import "include/reset";
+@import "include/fonts";
 @import "include/variables";
 @import "include/post_snippet";
 
 body {
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, Sans-serif;
     color: $wunderdog-text;
     h1, h2, h3, h4, h5, h6 {
         font-weight: bold;
@@ -31,6 +32,7 @@ body {
         background: white;
         h1, h2, h3, h4, h5, h6 {
             color: $wunderdog-header;
+            font-family: novecento_wide_demiboldbold, HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, Sans-serif;
             a {
                 text-decoration: none;
                 color: $wunderdog-header;
@@ -49,7 +51,7 @@ body {
             padding-bottom: 10px;
         }
     }
-    header {
+    & > header {
         height: 300px;
         width: 100%;
         display: block;
@@ -70,7 +72,36 @@ body {
             padding: 10px;
         }
     }
-    &:not(.home) header {
+
+    & > header,
+    & > footer {
+        // Site navigation
+        text-align: center;
+        h1, h2, h3, h4, h5, h6 {
+            color: white;
+        }
+        a {
+            color: white;
+            text-transform: uppercase;
+        }
+        ul {
+            list-style-type: none;
+            font-size: 1.2em;
+            li {
+                display: inline;
+                padding-right: 10px;
+            }
+        }
+    }
+
+    & > footer {
+        a, a:visited {
+            color: #b3b3b3;
+            text-transform: uppercase;
+        }
+    }
+
+    &:not(.home) > header {
         height: 140px;
     }
     &.home {
@@ -90,32 +121,5 @@ body {
     }
     &.testimonials {
         @import "pages/testimonials";
-    }
-}
-
-header, footer {
-    // Site navigation
-    text-align: center;
-    h1, h2, h3, h4, h5, h6 {
-        color: white;
-    }
-    a {
-        color: white;
-        text-transform: uppercase;
-    }
-    ul {
-        list-style-type: none;
-        font-size: 1.2em;
-        li {
-            display: inline;
-            padding-right: 10px;
-        }
-    }
-}
-
-footer {
-    a, a:visited {
-        color: #b3b3b3;
-        text-transform: uppercase;
     }
 }

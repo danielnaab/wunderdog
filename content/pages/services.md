@@ -6,7 +6,7 @@ title: Services We Offer
 
 Whether you choose personalized training or a group class, Wunderdog, LLC will provide you exceptional service from nose to tail!
 
-To view some our success stories, view our [testimonials]({{site.baseurl}}/testimonials/).
+To view some our success stories, view our [testimonials](testimonials.html).
 
 ### Personalized Training
 
