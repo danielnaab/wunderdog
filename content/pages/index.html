@@ -3,6 +3,21 @@
 {% set page.nav = "home" %}
 
 {% block content %}
+    <h3><a href="blog.html">Recent Blog Posts</a></h3>
+    <section class="blog">
+        <!-- Three most recent posts -->
+        {% for post in site.posts %}
+            <article>
+                {% if loop.index < 4 %}
+                    {% include "include/_post_snippet.html" %}
+                {% endif %}
+            </article>
+        {% endfor %}
+    </section>
+    <h3>Services</h3>
+    <section class="services">
+        <a href="/services.html">Services we offer...</a>
+    </section>
     <h3><a href="testimonials.html">Recent Testimonials</a></h3>
     <section class="testimonials">
         <!-- Three most recent posts -->
@@ -20,20 +35,5 @@
                 {% endif %}
             </article>
         {% endfor %}
-    </section>
-    <h3><a href="blog.html">Recent Blog Posts</a></h3>
-    <section class="blog">
-        <!-- Three most recent posts -->
-        {% for post in site.posts %}
-            <article>
-                {% if loop.index < 4 %}
-                    {% include "include/_post_snippet.html" %}
-                {% endif %}
-            </article>
-        {% endfor %}
-    </section>
-    <h3>Services</h3>
-    <section class="services">
-        <a href="/services.html">Services we offer...</a>
     </section>
 {% endblock %}
