@@ -3,6 +3,57 @@
 {% set page.nav = "home" %}
 
 {% block content %}
+    <section class="slideshow">
+        <input type="radio" name="selected-item" id="radio-1" value="1" checked>
+        <input type="radio" name="selected-item" id="radio-2" value="2">
+        <input type="radio" name="selected-item" id="radio-3" value="3">
+
+        <div id="image-1">
+            <img src="images/slideshow/1.jpg">
+            <!--a href="/about.html">About Us</a-->
+        </div>
+        <div id="image-2">
+            <img src="images/slideshow/2.jpg">
+        </div>
+        <div id="image-3">
+            <img src="images/slideshow/3.jpg">
+        </div>
+    </section>
+
+    <section class="welcome">
+        <h3>We are a small team doing big things!</h3>
+        <p>With a better understanding of innate dog behavior, both owner and dog will benefit, and the Wunderdog team strives to teach this to our clients in a way that everyone can understand.</p>
+    </section>
+
+    <section class="info">
+        <ul>
+            <li>
+                <h3>Qualifications</h3>
+                <p>Owner and President of Wunderdog LLC, Lynn Wunderli has been training dogs for over 35 years. Her knowledge and experience with dogs began as a child as her father was a successful breeder and trainer of English Setters and Pointers for over 55 years in Illinois.</p>
+                <a href="/about.html">
+                    <i class="fa fa-info-circle"></i>
+                    Find out more
+                </a>
+            </li>
+            <li>
+                <h3>Classes &amp; Individual Training</h3>
+                <p>Whether you choose personalized training or a group class, Wunderdog, LLC will provide you exceptional service from nose to tail! Our team will work with you to create a custom-designed training plan specifically for you and your four-footed family member.</p>
+                <a href="/about.html">
+                    <i class="fa fa-info-circle"></i>
+                    Find out more
+                </a>
+            </li>
+            <li>
+                <h3>Boarding &amp; In-Home Stays</h3>
+                <p>Whether you are planning a vacation, have unexpected hours you will be away during the day, need rehabilitative care after you pet's surgery, or just need help with exercising you dog - Wunderdog is at your service! And we are fully insured and bonded!</p>
+                <a href="/about.html">
+                    <i class="fa fa-info-circle"></i>
+                    Find out more
+                </a>
+            </li>
+        </ul>
+    </section>
+
     <h3><a href="blog.html">Recent Blog Posts</a></h3>
     <section class="blog">
         <!-- Three most recent posts -->
@@ -14,26 +65,37 @@
             </article>
         {% endfor %}
     </section>
+
+    <section class="testimonials">
+        <h3><a href="testimonials.html">Testimonials</a></h3>
+        <p>
+            Wunderdog is a family business based on trust, knowledge, and integrity. Whether out clients have chosen grooming, training, extended care, in-home routine and specialize visits, or daycamp, we have provided these services with instruction and insight. Check out their experiences!
+        </p>
+        <!-- Six most recent testimonials -->
+        <div class="samples">
+          {% for testimonial in site.testimonials %}
+            {% if loop.index < 7 %}
+                <article>
+                    <img {% if testimonial.image %}src="images/testimonials/{{testimonial.image}}"{% endif %}>
+                    <div>
+                        <h3><a href="testimonials.html#testimonial-{{loop.index}}">{{testimonial.author}}</a></h3>
+                        <p>
+                            {{testimonial.content|truncate(55)|safe}}
+                        </p>
+                        <p>
+                            <a href="testimonials.html#testimonial-{{loop.index}}" class="more">
+                                <i class="fa fa-plus-circle"></i>
+                            </a>
+                        </p>
+                    </div>
+                </article>
+            {% endif %}
+          {% endfor %}
+        </div>
+    </section>
+
     <h3>Services</h3>
     <section class="services">
         <a href="/services.html">Services we offer...</a>
-    </section>
-    <h3><a href="testimonials.html">Recent Testimonials</a></h3>
-    <section class="testimonials">
-        <!-- Three most recent posts -->
-        {% for testimonial in site.testimonials %}
-            <article>
-                {% if loop.index < 4 %}
-                    <h3><a href="testimonials.html#testimonial-{{loop.index}}">{{testimonial.author}}, {{testimonial.authorLocation}}</a></h3>
-                    {% if testimonial.image %}
-                        <img src="images/testimonials/{{testimonial.image}}" alt="{{testimonial.author}}" />
-                    {% endif %}
-                    <p>
-                        {{testimonial.content|truncate(300)|safe}}
-                        <a href="testimonials.html#testimonial-{{loop.index}}">More...</a>
-                    </p>
-                {% endif %}
-            </article>
-        {% endfor %}
     </section>
 {% endblock %}

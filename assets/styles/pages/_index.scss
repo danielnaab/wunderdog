@@ -1,3 +1,32 @@
+.slideshow {
+    position: relative;
+    input {
+        position: relative;
+        top: 0;
+        z-index: 2;
+        display: inline-block;
+
+        &#radio-1:checked ~ #image-1,
+        &#radio-2:checked ~ #image-2,
+        &#radio-3:checked ~ #image-3 {
+            display: block;
+        }
+    }
+    div {
+        position: relative;
+        top: 0;
+        display: none;
+        * {
+            z-index: 2;
+            width: 100%;
+            max-height: 280px;
+        }
+        img {
+            z-index: 1;
+        }
+    }
+}
+
 h1 {
     display: none;
 }
@@ -5,6 +34,7 @@ h1 {
 section {
     margin-bottom: 15px;
     padding: 5px;
+    text-align: center;
     &.blog {
         display: table;
         background-color: $wunderdog-accent;
@@ -14,20 +44,90 @@ section {
             .post-snippet {
                 padding: 10px;
             }
+            a.more {
+                text-transform: uppercase;
+                color: darkgray;
+                &:hover {
+                    color: $wunderdog-red;
+                }
+            }
+        }
+    }
+    &.welcome {
+        text-align: center;
+        border-bottom: solid 1px lightgray;
+        padding: 2em;
+    }
+    &.info {
+        text-align: center;
+        ul {
+            li {
+                float: left;
+                width: 280px;
+                margin: 20px;
+                a {
+                    text-transform: uppercase;
+                    color: darkgray;
+                    &:hover {
+                        color: $wunderdog-red;
+                    }
+                }
+            }
         }
     }
     &.testimonials {
-        display: table;
         background-color: $wunderdog-accent;
-        article {
-            display: table-cell;
-            width: 33%;
-            img {
-                float: right;
-                padding: 5px;
-            }
-            p {
-                padding: 10px;
+        h3 {
+            padding-top: 1.5em;
+        }
+        & > p {
+            text-align: center;
+            margin: .5em 6em;
+            font-size: 1.1em;
+        }
+        .samples {
+            width: 100%;
+            article {
+                position: relative;
+                display: inline-block;
+                width: 280px;
+                height: 250px;
+                vertical-align: top;
+                margin: 20px;
+                img {
+                    z-index: -1;
+                    width: 100%;
+                    background-color: black;
+                }
+                &:hover img {
+                    opacity: 0.6;
+                }
+                & > div {
+                    position: absolute;
+                    z-index: 1;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    padding: 0 30px;
+                    font-size: 1.1em;
+                    color: black;
+                    text-align: center;
+                    p {
+                        font-style: italic;
+                        padding: 0;
+                    }
+                    & > * {
+                        display: none;
+                    }
+                    &:hover > * {
+                        display: block;
+                    }
+                    a.more {
+                        font-size: 3em;
+                        color: $wunderdog-red;
+                    }
+                }
             }
         }
     }

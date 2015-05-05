@@ -1,0 +1,10 @@
+article.service {
+    display: none;
+    &:target {
+        display: block
+    }
+}
+
+ul#menu {
+
+}

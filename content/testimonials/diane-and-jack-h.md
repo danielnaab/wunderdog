@@ -1,6 +1,6 @@
 ---
 published: true
-author: Diane and Jack H.
+author: Diane and Jack
 authorLocation: Atkinson, NH
 authorUrl:
 signees:

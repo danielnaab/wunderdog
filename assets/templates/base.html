@@ -10,24 +10,32 @@
     </head>
     <body class="{{page.nav}}">
         <header>
-            <ul>
+            <ul class="menu">
                 <li {% if page.nav == "home"%}class="active"{% endif%}>
                     <a href="{{site.urlRoot}}">Home</a>
-                </li>
-                <li {% if page.nav == "blog"%}class="active"{% endif%}>
-                    <a href="{{site.urlRoot}}blog.html">Blog</a>
-                </li>
-                <li {% if page.nav == "testimonials"%}class="active"{% endif%}>
-                    <a href="{{site.urlRoot}}testimonials.html">Testimonials</a>
-                </li>
-                <li {% if page.nav == "services"%}class="active"{% endif%}>
-                    <a href="{{site.urlRoot}}services.html">Services</a>
                 </li>
                 <li {% if page.nav == "about"%}class="active"{% endif%}>
                     <a href="{{site.urlRoot}}about.html">About</a>
                 </li>
+                <li {% if page.nav == "services"%}class="active"{% endif%}>
+                    <a href="{{site.urlRoot}}services.html">Services</a>
+                </li>
+                <li {% if page.nav == "testimonials"%}class="active"{% endif%}>
+                    <a href="{{site.urlRoot}}testimonials.html">Testimonials</a>
+                </li>
+                <li {% if page.nav == "blog"%}class="active"{% endif%}>
+                    <a href="{{site.urlRoot}}blog.html">Blog</a>
+                </li>
                 <li {% if page.nav == "contact"%}class="active"{% endif%}>
                     <a href="{{site.urlRoot}}contact.html">Contact</a>
+                </li>
+            </ul>
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/pages/Wunderdog-K-9-Care-Training-LLC/287830771243071"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="/atom.xml"><i class="fa fa-rss"></i></a>
                 </li>
             </ul>
         </header>

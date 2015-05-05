@@ -1,6 +1,6 @@
 ---
 published: true
-author: Carmen and Victoria F.
+author: Carmen and Victoria
 authorLocation: Chester, NH
 authorUrl:
 signees:

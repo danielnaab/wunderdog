@@ -7,8 +7,6 @@ signees:
 image: dennis-and-kim-rusch.jpg
 ---
 
-To all pet owners:
-
 My wife and I had never been dog owners before we found Nadia, a Siberian Husky, who we love very much. So as you can imagine we wanted to have a safe setting to take Nadia during the day while we worked. But it is so much more than that. At Wunderdog we met Lynn and her family and have made a lasting friendship and a second home for Nadia.
 
 From Nadia's point of view this experience is one that she looks forward to as often as possible. Wunderdog offers us a worry-free, playful atmosphere and great socialization for our dog. In addition, we can receive personal training to develop Nadia's obedience skills, or have her groomed while she is at daycare.

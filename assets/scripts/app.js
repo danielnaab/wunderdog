@@ -5,6 +5,7 @@ var $ = require('zepto-browserify').$
 
 // Each page should export a function to be called on page ready.
 var pages = {
+    home: require('./pages/home'),
     testimonials: require('./pages/testimonials')
 }
 

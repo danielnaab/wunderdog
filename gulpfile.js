@@ -174,13 +174,50 @@ gulp.task('testimonials', function () {
 })
 
 
+gulp.task('services', function () {
+    // Copy testimonial images over.
+    var images = gulp.src('content/services/*.jpg')
+        .pipe(gulp.dest('dist/images/services'))
+
+    var services = gulp.src('content/services/**/*.md')
+        .pipe(frontMatter({property: 'page', remove: true}))
+        .pipe(marked())
+        // Collect all the services and place them on the site object.
+        .pipe((function () {
+            var services = []
+            return through.obj(function (file, enc, cb) {
+                services.push(file.page)
+                services[services.length - 1].content = file.contents.toString()
+                this.push(file)
+                cb()
+            },
+            function (cb) {
+                services.sort(function (a, b) {
+                    if (a.author < b.author) {
+                        return -1;
+                    }
+                    if (a.author > b.author) {
+                        return 1;
+                    }
+                    return 0;
+                })
+                site.services = services
+                cb()
+            })
+        })())
+
+    return merge(images, services)
+        .pipe(connect.reload())
+})
+
+
 gulp.task('cleanpages', function () {
     return gulp.src(['dist/*.html'], {read: false})
         .pipe(rimraf())
 })
 
 
-gulp.task('pages', ['cleanpages', 'testimonials'], function () {
+gulp.task('pages', ['cleanpages', 'testimonials', 'services'], function () {
     var html = gulp.src(['content/pages/*.html'])
         .pipe(frontMatter({property: 'page', remove: true}))
         .pipe(through.obj(function (file, enc, cb) {
@@ -238,7 +275,9 @@ gulp.task('cleanfonts', function () {
 
 
 gulp.task('fonts', function () {
-    return gulp.src('assets/fonts/**')
+    var fontAwesomeFonts = gulp.src('node_modules/font-awesome/fonts/**')
+        .pipe(gulp.dest('dist/fonts'))
+    return merge(gulp.src('assets/fonts/**'), fontAwesomeFonts)
         .pipe(gulp.dest('dist/fonts'))
         .pipe(connect.reload())
 })
@@ -252,7 +291,11 @@ gulp.task('cleanstyles', function () {
 
 gulp.task('styles', ['cleanstyles'], function () {
     return gulp.src('assets/styles/app.scss')
-        .pipe(sass())
+        .pipe(sass({
+            includePaths: [
+                'node_modules/font-awesome/scss'
+            ]
+        }))
         .pipe(gulpif(!DEBUG, minifycss()))
         .pipe(gulp.dest('dist/styles'))
         .pipe(connect.reload())
