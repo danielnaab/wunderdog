@@ -85,6 +85,11 @@ body {
             bottom: 0;
             right: 0;
             padding: 10px;
+            li.active {
+                a {
+                    color: $wunderdog-red;
+                }
+            }
         }
         ul.social {
             position: absolute;
@@ -102,7 +107,6 @@ body {
     & > header,
     & > footer {
         // Site navigation
-        text-align: center;
         h1, h2, h3, h4, h5, h6 {
             color: white;
         }
@@ -110,6 +114,10 @@ body {
             color: white;
             text-transform: uppercase;
         }
+    }
+
+    & > header {
+        text-align: center;
         ul {
             list-style-type: none;
             font-size: 1.2em;
@@ -121,9 +129,49 @@ body {
     }
 
     & > footer {
-        a, a:visited {
-            color: #b3b3b3;
+        div.links {
+            h1 {
+                color: white;
+                font-size: 1.25em;
+                padding-bottom: 1em;
+                text-align: left;
+            }
+            a {
+                &:hover {
+                    color: $wunderdog-red;
+                }
+                color: #9b9999;
+            }
+            address, p {
+                padding-bottom: 1em;
+                color: #9b9999;
+            }
+            i {
+                color: $wunderdog-red;
+            }
+            background-color: #333333;
+            width: 100%;
+            height: 15em;
+            & > div {
+                padding: 2em;
+                width: 25%;
+                float: left;
+                &.quick-links {
+                }
+            }
+        }
+        ul.copyright {
+            margin: 1.5em;
+            list-style-type: none;
+            font-size: 1em;
+            li {
+                display: inline;
+                padding-right: 20px;
+            }
             text-transform: uppercase;
+            a, a:visited {
+                color: $wunderdog-red;
+            }
         }
     }
 

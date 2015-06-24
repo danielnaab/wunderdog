@@ -40,13 +40,63 @@
             </ul>
         </header>
         <section class="content">
-            <h1>{{page.title}}</h1>
+            <h1 class="page-title">{{page.title}}</h1>
             <div class="page-content">{% block content %}{% endblock %}</div>
         </section>
         <footer>
-            <ul>
+            <div class="links">
+                <div>
+                    <h1>Contact Info</h1>
+                    <address>
+                        Wunderdog LLC<br>
+                        P.O. Box 426<br>
+                        Waunakee, WI 53597
+                    </address>
+                    <a href="mailto:wunderdognh@yahoo.com">wunderdognh@yahoo.com</a>
+                    <a href="tel:16033391007">603.339.1007</a>
+                </div>
+                <div class="quick-links">
+                    <h1>Quick Links</h1>
+                    <ul>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="{{site.urlRoot}}">Home</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="{{site.urlRoot}}about.html">About Us</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="{{site.urlRoot}}services.html">Services</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="{{site.urlRoot}}testimonials.html">Testimonials</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="{{site.urlRoot}}blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="{{site.urlRoot}}contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>Get In Touch</h1>
+                    <p>
+                        Let us know how our qualified team can help you and your
+                        four-legged friend.
+                    </p>
+                    <a href="mailto:wunderdognh@yahoo.com">Click here to email us</a>
+                </div>
+            </div>
+            <ul class="copyright">
                 <li>
-                    &copy; {{site.time|date('Y')}} Wunderdog LLC
+                    Copyright &copy; {{site.time|date('Y')}} Wunderdog LLC.
+                    All rights reserved.
                 </li>
                 <li>
                     <a href="{{site.urlRoot}}atom.xml">RSS Feed</a>

@@ -2,6 +2,7 @@
 published: true
 layout: page
 title: Our Mission and Philosophy
+nav: about
 ---
 
 ### Since 1998

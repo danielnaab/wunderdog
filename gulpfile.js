@@ -223,7 +223,7 @@ gulp.task('pages', ['cleanpages', 'testimonials', 'services'], function () {
         .pipe(through.obj(function (file, enc, cb) {
             var data = {
                 site: site,
-                page: {}
+                page: file.page
             }
             var tpl = swig.compileFile(file.path)
             file.contents = new Buffer(tpl(data), 'utf8')
@@ -355,7 +355,7 @@ gulp.task('rss', ['posts'], function () {
         .pipe(through.obj(function (file, enc, cb) {
             var data = {
                 site: site,
-                page: {}
+                page: file.page
             }
             var tpl = swig.compileFile(file.path)
             file.contents = new Buffer(tpl(data), 'utf8')
