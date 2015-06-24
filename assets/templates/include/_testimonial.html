@@ -4,9 +4,9 @@
 {{testimonial.content|safe}}
 <ul>
     {% for signee in testimonial.signees %}
-        <li>{{signee}}, {{testimonial.authorLocation}}</li>
+        <li>{{signee}}</li>
     {% endfor %}
     {% if !testimonial.signees %}
-        <li>{{testimonial.author}}, {{testimonial.authorLocation}}</li>
+        <li>{{testimonial.author}}</li>
     {% endif %}
 </ul>
