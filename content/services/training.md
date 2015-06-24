@@ -3,6 +3,7 @@ published: true
 title: Training
 ---
 
+
 ## Personal consultation fees
 
 "GREAT BEGINNINGS/THE BASICS & FINE TUNING" INITIAL CONSULTATION:
@@ -46,14 +47,14 @@ Times/location vary; call or email for info!
 
 ## "Nature vs Nurture"
 
-Latest: currently accepting applications!
+Latest: Dates and Times To Be Posted!
 
 Held Wednesdays at Camp K9, Madison, WI
-November 5 - December 10, 2014
 
-- *Great Beginnings Bunderpups* ($125) 6 week class (meets once per week) for the beginning team!  FOR PUPPIES 16 WEEKS TO 5 MONTHS. Learn the basics:  HOW TO WALK ON LEASH, SIT, AND DOWN. Playtime for those who would like their puppy to participate always follows our class (15 to 20 minutes maximum)
+ *Great Beginnings Wunderpups* ($125) 6 week class (meets once per week) for the beginning team!  FOR PUPPIES 16 WEEKS TO 5 MONTHS. Learn the basics:  HOW TO WALK ON LEASH, SIT, AND DOWN. Playtime for those who would like their puppy to participate always follows our class (15 to 20 minutes maximum)
 "MIDDLES GREAT BEGINNINGS:"  ($125) 6 week class (meets once per week) for pups/adolescents/adults (5 months and up). This class is a wonderful way to continue your puppy after Littles Beginning Obedience, to start the newly-acquired addition to the family, or for the dog that needs some "refreshing."  Lessons learned:  HEEL, SIT, DOWN, WAIT (or, STAY). Playtime to follow for those interested in allowing their dog some added FUN!
-- *Nature vs Nurture* ($125) 6 week class (meets once per week):
+
+*Nature vs Nurture* ($125) 6 week class (meets once per week):
 This class is for owners who want to learn more about their dog's behaviors (and what to do about unwanted behaviors), and who also want to expose their dog to unfamiliar dogs and humans in a safe, controlled, fun, and healthy environment.
 Come spend an hour weekly with us!  You will learn more than you ever thought possible!
 - *Behavior* Learn about basic dog behavior and how your dog's innate temperament and and/or previous experiences can affect the way he/she behaves. Learn how you can help increase your dog's comfort level in strange surroundings, different settings, etc.
