@@ -31,7 +31,7 @@ NOT YOUR AVERAGE IN-HOME CARE!
 
 We would love to meet you and your pets!
 Having in-home care clients for over 20 years, we have established an in-home program to suit every pet's needs.  Ranging from high-energy to low energy dogs, we can design routine or vacation in-home visits specifically for your pet(s).  If you have a multi-pet home, we are experienced in many species care (our kitty clients enjoy playtime with our cat toys, massages, and brush time, of course!  Our bird clients like the company of the in/out, fresh water/food, and if they engage "in conversation," we provide it!).
-Wunderdog takes pride in making sure that your pets have clean water and food bowls (cleaned after every serving), a tidy living area, and fullfilling visit each and every time we visit.
+Wunderdog takes pride in making sure that your pets have clean water and food bowls (cleaned after every serving), a tidy living area, and fullfilling visit each and every time we meet.
 If you are available via texting, we will text you pictures or videos of your pet(s) while in our care!
 You will receive a "Visitation Log" at the end of our vacation visits, listing daily activities and times, appetite of your pet(s), elimination report, anything unusual, etc.
 Of course, after each routine visit, notification will be left for you describing our visit and time spent with your pet(s).
