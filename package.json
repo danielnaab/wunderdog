@@ -13,6 +13,7 @@
     "browserify": "^6.2.0",
     "es6-browserify": "0.0.7",
     "font-awesome": "^4.3.0",
+    "global": "^4.3.0",
     "gulp": "^3.8.10",
     "gulp-connect": "^2.2.0",
     "gulp-front-matter": "^1.0.0",

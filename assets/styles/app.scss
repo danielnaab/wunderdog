@@ -110,9 +110,6 @@ body {
         h1, h2, h3, h4, h5, h6 {
             color: white;
         }
-        a {
-            text-transform: uppercase;
-        }
     }
 
     & > header {
@@ -124,6 +121,9 @@ body {
                 display: inline;
                 padding-right: 20px;
             }
+        }
+        a {
+            text-transform: uppercase;
         }
     }
 
@@ -152,7 +152,7 @@ body {
             height: 15em;
             & > div {
                 padding: 2em;
-                width: 25%;
+                width: 27%;
                 float: left;
                 &.quick-links {
                 }

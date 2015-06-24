@@ -1,11 +1,10 @@
+ul#menu {
+    display: inline-block;
+}
+
 article.service {
     display: none;
     &:target {
         display: block
     }
-}
-
-ul#menu {
-    float: left;
-    @include clearfix;
 }

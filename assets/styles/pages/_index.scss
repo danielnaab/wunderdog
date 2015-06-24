@@ -76,7 +76,7 @@ section {
         }
     }
     &.testimonials {
-        //background-color: $wunderdog-accent;
+        background-color: $wunderdog-accent;
         h3 {
             padding-top: 1.5em;
         }
@@ -100,7 +100,7 @@ section {
                     background-color: black;
                 }
                 &:hover img {
-                    opacity: 0.4;
+                    opacity: 0.3;
                 }
                 & > div {
                     position: absolute;
@@ -132,6 +132,5 @@ section {
         }
     }
     &.services {
-        background-color: $wunderdog-accent;
     }
 }
