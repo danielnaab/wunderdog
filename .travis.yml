@@ -16,3 +16,9 @@ script:
 env:
   global:
   - secure: "jTbRauX2+9E9WbSI6pu4oXO3P60d3KriWQr7sD39JArrXFqs3ZpeT0gdycmE4OlYS/t1MY7yzKFw2MPeyIO2tl5zIBRLx77GZRwqkKi0Y4Uu5nRNkOBiPsrVD7Iq5gLuknQGbLCHf2p+1MmtQbsuEVTSkV/FWzCxk2j0nRUm2ng="
+notifications:
+  email:
+    recipients:
+      - danielnaab@gmail.com
+    on_success: always
+    on_failure: always
