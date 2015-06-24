@@ -1,6 +1,5 @@
 article {
     @include clearfix;
-
     padding: 20px;
     margin-bottom: 10px;
     img {
@@ -11,5 +10,4 @@ article {
         float: right;
         font-style: italic;
     }
-    background-color: $wunderdog-accent;
 }

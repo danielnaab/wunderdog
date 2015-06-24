@@ -1,12 +1,5 @@
 {% if service.image %}
     <img src="images/services/{{service.image}}" alt="{{service.author}}" />
 {% endif %}
+<h1>{{service.title}}</h1>
 {{service.content|safe}}
-<ul>
-    {% for signee in service.signees %}
-        <li>{{signee}}, {{services.authorLocation}}</li>
-    {% endfor %}
-    {% if !service.signees %}
-        <li>{{services.author}}, {{services.authorLocation}}</li>
-    {% endif %}
-</ul>

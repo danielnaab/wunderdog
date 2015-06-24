@@ -6,5 +6,6 @@ article.service {
 }
 
 ul#menu {
-
+    float: left;
+    @include clearfix;
 }

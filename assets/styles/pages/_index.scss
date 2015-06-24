@@ -55,9 +55,11 @@ section {
         text-align: center;
         border-bottom: solid 1px lightgray;
         padding: 2em;
+        font-size: 1.2em;
     }
     &.info {
         text-align: center;
+        background-color: white;
         ul {
             li {
                 float: left;
@@ -74,7 +76,7 @@ section {
         }
     }
     &.testimonials {
-        background-color: $wunderdog-accent;
+        //background-color: $wunderdog-accent;
         h3 {
             padding-top: 1.5em;
         }
@@ -98,7 +100,7 @@ section {
                     background-color: black;
                 }
                 &:hover img {
-                    opacity: 0.6;
+                    opacity: 0.4;
                 }
                 & > div {
                     position: absolute;
