@@ -4,7 +4,9 @@ var $ = require('zepto-browserify').$
 
 
 module.exports = function() {
-    $(window).on('hashchange', function () {
+    var scrollTop = function () {
         window.scrollTo(0, 0)
-    })
+    }
+    $(window).ready(scrollTop)
+    $(window).on('hashchange', scrollTop)
 }
