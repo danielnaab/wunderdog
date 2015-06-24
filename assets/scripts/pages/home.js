@@ -27,7 +27,7 @@ else {
 module.exports = function() {
     setInterval(function() {
         var match = $('.slideshow > input:checked').attr('id').match(/radio-(\d+)/)
-        var page = ((match ? match[1] : 1) % 3)
+        var page = ((match ? match[1] : 1) % 2)
         $('.slideshow > #radio-' + (page + 1)).prop('checked', true)
     }, 5000)
 }

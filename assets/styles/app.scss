@@ -3,6 +3,7 @@
 @import "include/fonts";
 @import "include/variables";
 @import "include/post_snippet";
+@import "include/buttons";
 
 @import "font-awesome";
 
@@ -41,6 +42,7 @@ body {
         margin-right: auto;
     }
     .content {
+        padding-top: 1.5em;
         background: white;
         h1, h2, h3, h4, h5, h6 {
             color: $wunderdog-header;
@@ -53,8 +55,9 @@ body {
         }
         h1 {
             background: lightgray;
-            padding: 20px;
+            padding: 10px;
             color: white;
+            font-size: 1.8em;
             text-align: left;
         }
         .page-content {
@@ -72,7 +75,7 @@ body {
         position: relative;
         text-shadow: 0 0 10px white;
         &:before {
-            content: url(../images/logo-300.png);
+            content: url(../images/logo.jpg);
             position: absolute;
             left: 0;
             padding: 20px;
@@ -124,9 +127,6 @@ body {
         }
     }
 
-    &:not(.home) > header {
-        height: 140px;
-    }
     &.home {
         @import "pages/index";
     }
