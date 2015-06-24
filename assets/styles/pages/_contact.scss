@@ -7,8 +7,15 @@ form {
         display: block;
         margin-bottom: 10px;
         width: 100%;
+        padding: .5em;
+        font-size: 1.1em;
+    }
+    legend {
+        font-size: 1.2em;
     }
     button {
         padding: 1em;
+        font-size: 1.1em;
+        color: $wunderdog-red;
     }
 }
