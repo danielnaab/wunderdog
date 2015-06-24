@@ -1,7 +1,8 @@
 ---
 published: true
-title: In-Home Care
+title: "In-Home Care"
 ---
+
 
 EXCEPTIONAL IN-HOME CARE
 
@@ -23,7 +24,7 @@ $1 add for each additional animal within the same household
 
 REHABILITATION CARE (Up to 60 minutes as specified in writing by qualified veterinarian, physical therapist, and/or you):
 
-$45/1 dog (per visit)
+$40/1 dog (per visit)
 *Prior to first session/visit, a mandatory meeting must be scheduled for demonstration and clarification of care to be given. (This meeting is free-of-charge to you.)
 
 NOT YOUR AVERAGE IN-HOME CARE!
