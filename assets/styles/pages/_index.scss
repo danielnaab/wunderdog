@@ -56,6 +56,9 @@ section {
         border-bottom: solid 1px lightgray;
         padding: 2em;
         font-size: 1.2em;
+        h3 {
+            font-size: 1.3em;
+        }
     }
     &.info {
         text-align: center;
