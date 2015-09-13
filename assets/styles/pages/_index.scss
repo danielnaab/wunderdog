@@ -7,7 +7,8 @@
         display: inline-block;
 
         &#radio-1:checked ~ #image-1,
-        &#radio-2:checked ~ #image-2 {
+        &#radio-2:checked ~ #image-2,
+        &#radio-3:checked ~ #image-3 {
             display: block;
         }
     }
@@ -58,6 +59,18 @@ section {
         font-size: 1.2em;
         h3 {
             font-size: 1.3em;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        h4 {
+            padding-top: 0;
+            margin-top: 0;
+            margin-bottom: .5em;
+            font-weight: normal;
+            font-color: black;
+        }
+        p {
+            font-size: 110%;
         }
     }
     &.info {
@@ -71,7 +84,7 @@ section {
                 a {
                     text-transform: uppercase;
                     color: darkgray;
-                    &:hover {
+                    i, &:hover {
                         color: $wunderdog-red;
                     }
                 }
@@ -86,7 +99,7 @@ section {
         & > p {
             text-align: center;
             margin: .5em 6em;
-            font-size: 1.1em;
+            font-size: 1.2em;
         }
         .samples {
             width: 100%;
@@ -103,7 +116,7 @@ section {
                     background-color: black;
                 }
                 &:hover img {
-                    opacity: 0.3;
+                    opacity: 0.15;
                 }
                 & > div {
                     position: absolute;

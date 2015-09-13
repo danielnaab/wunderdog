@@ -3,6 +3,16 @@ article {
     padding: 20px;
     margin-bottom: 10px;
     border-bottom: solid 1px lightgray;
+    h1, h2, h3, h4, h5 {
+        text-align: left;
+        font-size: 140%;
+    }
+    h3 {
+        text-transform: none;
+        font-weight: normal;
+        color: black;
+        font-size: 120%;
+    }
     img {
         float: left;
         margin: 5px 10px 5px 0px;

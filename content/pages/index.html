@@ -6,6 +6,7 @@
     <section class="slideshow">
         <input type="radio" name="selected-item" id="radio-1" value="1" checked style="display: none;">
         <input type="radio" name="selected-item" id="radio-2" value="2" style="display: none;">
+        <input type="radio" name="selected-item" id="radio-3" value="3" style="display: none;">
 
         <div id="image-1">
             <a href="{{site.urlRoot}}about.html">
@@ -15,6 +16,11 @@
         <div id="image-2">
             <a href="{{site.urlRoot}}services.html#service-overview">
                 <img src="images/slideshow/2.png" alt="slideshow 2">
+            </a>
+        </div>
+        <div id="image-3">
+            <a href="{{site.urlRoot}}blog.html">
+                <img src="images/slideshow/3.png" alt="slideshow 3">
             </a>
         </div>
     </section>
@@ -42,7 +48,7 @@
                 <p>Whether you choose personalized training or a group class, Wunderdog, LLC will provide you exceptional service from nose to tail! Our team will work with you to create a custom-designed training plan specifically for you and your four-footed family member.</p>
                 <a href="{{site.urlRoot}}about.html">
                     <i class="fa fa-caret-right"></i>
-                    Read more
+                    Learn more
                 </a>
             </li>
             <li>
@@ -51,12 +57,11 @@
                 <p>Whether you are planning a vacation, have unexpected hours you will be away during the day, need rehabilitative care after you pet's surgery, or just need help with exercising you dog - Wunderdog is at your service! And we are fully insured and bonded!</p>
                 <a href="{{site.urlRoot}}about.html">
                     <i class="fa fa-caret-right"></i>
-                    Read more
+                    Find out more
                 </a>
             </li>
         </ul>
     </section>
-
     <h3><a href="testimonials.html">Testimonials</a></h3>
     <section class="testimonials">
         <p>
@@ -99,7 +104,7 @@
     </section>
     #}
 
-    <section class="services">
+    {#<section class="services">
         <h3><a href="{{site.urlRoot}}services.html#service-overview">Services</a></h3>
         <ul>
             <li>Puppies beginning their lives with owners--good beginning practices, setting up for success</li>
@@ -110,5 +115,5 @@
             <li>some in-home care (don't know how much I want to go into this--I only do it for select clients, but want to leave that door open...)</li>
             <li>local daycares that need staff training or guidance in improving their program (presentations, personal or group training...)</li>
         </ul>
-    </section>
+    </section>#}
 {% endblock %}

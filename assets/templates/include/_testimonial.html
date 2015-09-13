@@ -1,6 +1,8 @@
 {% if testimonial.image %}
     <img src="images/testimonials/{{testimonial.image}}" alt="{{testimonial.author}}" />
 {% endif %}
+{% if testimonial.title %}<h2>{{testimonial.title}}</h2>{% endif %}
+{% if testimonial.subTitle %}<h3>{{testimonial.subTitle}}</h3>{% endif %}
 {{testimonial.content|safe}}
 <ul>
     {% for signee in testimonial.signees %}

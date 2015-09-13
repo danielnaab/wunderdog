@@ -38,6 +38,7 @@ body {
     & > header,
     & > footer {
         width: $page-width;
+        font-size: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -53,8 +54,10 @@ body {
                 color: $wunderdog-header;
             }
         }
-        h1 {
-            background: lightgray;
+        h1.page-title {
+            background: url('../images/title-background.png') no-repeat left bottom;
+            min-width: $page-width;
+            font-weight: normal;
             padding: 10px;
             color: white;
             font-size: 1.8em;
@@ -85,9 +88,12 @@ body {
             bottom: 0;
             right: 0;
             padding: 10px;
-            li.active {
-                a {
-                    color: $wunderdog-red;
+            li {
+                &.active {
+                    a {
+                        color: $wunderdog-red;
+                        font-weight: bold;
+                    }
                 }
             }
         }
@@ -131,8 +137,9 @@ body {
         div.links {
             h1 {
                 color: white;
-                font-size: 1.25em;
-                padding-bottom: 1em;
+                font-size: 1.1em;
+                font-weight: normal;
+                padding-bottom: .5em;
                 text-align: left;
             }
             a {
@@ -155,6 +162,9 @@ body {
                 width: 27%;
                 float: left;
                 &.quick-links {
+                }
+                & > a {
+                    color: white;
                 }
             }
         }
