@@ -29,6 +29,7 @@
     "gulp-uglify": "^1.0.1",
     "gulp-util": "^3.0.1",
     "merge-stream": "^0.1.6",
+    "slug": "^0.9.1",
     "swig": "^1.4.2",
     "swig-extras": "0.0.1",
     "through2": "^0.6.3",

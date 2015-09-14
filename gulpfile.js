@@ -20,6 +20,7 @@ var _ = require('underscore'),
     source = require('vinyl-source-stream'),
     streamify = require('gulp-streamify'),
     uglify = require('gulp-uglify'),
+    slugify = require('slug'),
     swig = require('swig'),
     swigExtras = require('swig-extras'),
     through = require('through2'),
@@ -63,6 +64,7 @@ swig.setDefaults({
     cache: false
 })
 swigExtras.useFilter(swig, 'truncate')
+swig.setFilter('slugify', slugify)
 
 
 function summarize(marker) {
@@ -139,7 +141,7 @@ gulp.task('posts', ['cleanposts'], function () {
 
 gulp.task('testimonials', function () {
     // Copy testimonial images over.
-    var images = gulp.src('content/testimonials/*.jpg')
+    var images = gulp.src(['content/testimonials/*.jpg', 'content/testimonials/*.png'])
         .pipe(gulp.dest('dist/images/testimonials'))
 
     var testimonials = gulp.src('content/testimonials/**/*.md')
@@ -156,13 +158,15 @@ gulp.task('testimonials', function () {
             },
             function (cb) {
                 testimonials.sort(function (a, b) {
-                    if (a.author < b.author) {
-                        return -1;
+                    var dogA = a.dog || 'ZZZ'
+                    var dogB = b.dog || 'ZZZ'
+                    if (dogA < dogB) {
+                        return -1
                     }
-                    if (a.author > b.author) {
-                        return 1;
+                    if (dogA > dogB) {
+                        return 1
                     }
-                    return 0;
+                    return 0
                 })
                 site.testimonials = testimonials
                 cb()

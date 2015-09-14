@@ -3,14 +3,16 @@
 {% set page.nav = "services" %}
 
 {% block content %}
-    <ul id="menu">
-        <li><a href="#service-overview">Overview</a></li>
-        {% for service in site.services %}
-            <li>
-                <a href="#service-{{loop.index}}">{{service.title}}</a>
-            </li>
-        {% endfor %}
-    </ul>
+    <div id="menu-container">
+        <ul id="menu">
+            <li><a href="#service-overview">Overview</a></li>
+            {% for service in site.services %}
+                <li>
+                    <a href="#service-{{loop.index}}">{{service.title}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 
     {% for service in site.services %}
         <article id="service-{{loop.index}}" class="service">
@@ -19,14 +21,12 @@
     {% endfor %}
 
     <article id="service-overview" class="service">
-        <h2 id="title-services-we-offer">Services We Offer</h2>
-        <p>Whether you choose personalized training or a group class, Wunderdog, LLC will provide you exceptional service from nose to tail!</p>
-        <p>To view some our success stories, view our <a href="testimonials.html">testimonials</a>.</p>
+        <p class="intro">Whether you choose personalized training or a group class, Wunderdog, LLC will provide you exceptional service from nose to tail!</p>
+        <p class="intro">To hear more about our services-in-action, view our <a href="testimonials.html">testimonials</a>.</p>
         <h3 id="personalized-training">Personalized Training</h3>
         <p>Every dog is different. Every family&#39;s schedule is different. If you are looking for learning the most you can in the most convenient place for your family, personalized training is for you! Whether your sessions take place in your home, a park nearby, or any combination designed specifically for you and you four-footed family member, your dog CAN become a WUNDERDOG!</p>
         <h3 id="group-classes">Group Classes</h3>
-        <p>Group classes are very affordable ways to help you and your dog! Looking for something to do weekly with your dog? Want to start your puppy out right? Looking to help your adolescent pup regain
-        &quot;GRADUATES&quot; OF FALL NATURE VS. NURTURE CLASS:</p>
+        <p>Group classes are very affordable ways to help you and your dog! Looking for something to do weekly with your dog? Want to start your puppy out right? Looking to help your adolescent pup remember manners and learn new things?
         <h3 id="specialized-personal-training">Specialized Personal Training</h3>
         <p>Is there a special skill (such as biking, hiking, etc.) that you would like to learn to do safely with your dog? Contact WUNDERDOG today to see if we can help design a program for you! We have had great success in helping clients achieve their personal goals with their dogs!</p>
         <h3 id="in-home-services">In-Home Services</h3>

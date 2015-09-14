@@ -15,7 +15,7 @@ body {
     color: $wunderdog-text;
     h1, h2, h3, h4, h5, h6 {
         font-weight: bold;
-        text-align: center;
+        text-align: left;
         text-transform: uppercase;
         color: $wunderdog-header;
     }
@@ -77,11 +77,10 @@ body {
         padding-top: 1em;
         position: relative;
         text-shadow: 0 0 10px white;
-        &:before {
-            content: url(../images/logo.jpg);
+        a.logo {
             position: absolute;
             left: 0;
-            padding: 20px;
+            text-align: right;
         }
         ul.menu {
             position: absolute;

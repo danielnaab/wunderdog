@@ -26,11 +26,19 @@
     }
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+
 h1.page-title {
     display: none;
 }
 
+
 section {
+    @include clearfix;
     margin-bottom: 15px;
     padding: 5px;
     text-align: center;
@@ -130,7 +138,6 @@ section {
                     color: black;
                     text-align: center;
                     p {
-                        font-style: italic;
                         padding: 0;
                     }
                     & > * {

@@ -62,31 +62,98 @@
             </li>
         </ul>
     </section>
-    <h3><a href="testimonials.html">Testimonials</a></h3>
+
     <section class="testimonials">
+        <h3><a href="testimonials.html">Testimonials</a></h3>
         <p>
             Wunderdog is a family business based on trust, knowledge, and integrity. Whether our clients have chosen training, in-home routine and specialize visits, or group classes, we have provided these services with instruction and insight. Check out their experiences!
         </p>
         <!-- Most recent testimonials -->
         <div class="samples">
-          {% for testimonial in site.testimonials %}
-            {% if loop.index < 4 %}
-                <article>
-                    <img {% if testimonial.image %}src="images/testimonials/{{testimonial.image}}" alt="testimonial"{% endif %}>
-                    <div>
-                        <h3><a href="testimonials.html#testimonial-{{loop.index}}">{{testimonial.author}}</a></h3>
-                        <p>
-                            {{testimonial.content|truncate(55)|safe}}
-                        </p>
-                        <p>
-                            <a href="testimonials.html#testimonial-{{loop.index}}" class="more">
-                                <i class="fa fa-plus-circle"></i>
-                            </a>
-                        </p>
-                    </div>
-                </article>
-            {% endif %}
-          {% endfor %}
+            <article>
+                <img src="/images/featured-testimonials/jackson.png" alt="Jackson Testimonial">
+                <div>
+                    <h3><a href="testimonials.html#testimonial-david-stafford">Jackson</a></h3>
+                    <p>
+                        Anxiety, territorial aggression
+                    </p>
+                    <p>
+                        <a href="testimonials.html#testimonial-david-stafford" class="more">
+                            <i class="fa fa-plus-circle"></i>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <img src="/images/featured-testimonials/sassy.png" alt="Sassy Testimonial">
+                <div>
+                    <h3><a href="testimonials.html#testimonial-diane-and-jack">Sassy</a></h3>
+                    <p>
+                        Fear, aggression, lack of leadership
+                    </p>
+                    <p>
+                        <a href="testimonials.html#testimonial-diane-and-jack" class="more">
+                            <i class="fa fa-plus-circle"></i>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <img src="/images/featured-testimonials/petey.png" alt="Petey Testimonial">
+                <div>
+                    <h3><a href="testimonials.html#testimonial-gina-and-bruce-a">Petey</a></h3>
+                    <p>
+                        Physical &amp; mental rehabilitation, re-home
+                    </p>
+                    <p>
+                        <a href="testimonials.html#testimonial-gina-and-bruce-a" class="more">
+                            <i class="fa fa-plus-circle"></i>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <img src="/images/featured-testimonials/chelsea.png" alt="Chelsea Testimonial">
+                <div>
+                    <h3><a href="testimonials.html#testimonial-sue-m">Chelsea</a></h3>
+                    <p>
+                        Puppy training, in-home rehab services
+                    </p>
+                    <p>
+                        <a href="testimonials.html#testimonial-sue-m" class="more">
+                            <i class="fa fa-plus-circle"></i>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <img src="/images/featured-testimonials/nash.png" alt="Nash Testimonial">
+                <div>
+                    <h3><a href="testimonials.html#testimonial-mary-and-rusty-r">Nash</a></h3>
+                    <p>
+                        Puppy training, adolescent-to-adult training
+                    </p>
+                    <p>
+                        <a href="testimonials.html#testimonial-mary-and-rusty-r" class="more">
+                            <i class="fa fa-plus-circle"></i>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <img src="/images/featured-testimonials/angie-winston.png" alt="Angie and Winston Testimonial">
+                <div>
+                    <h3><a href="testimonials.html#testimonial-karen-and-kelly-w">Angie &amp; Winston</a></h3>
+                    <p>
+                        Fear, aggression, adult obedience, rehab, re-home
+                    </p>
+                    <p>
+                        <a href="testimonials.html#testimonial-karen-and-kelly-w" class="more">
+                            <i class="fa fa-plus-circle"></i>
+                        </a>
+                    </p>
+                </div>
+            </article>
         </div>
     </section>
 

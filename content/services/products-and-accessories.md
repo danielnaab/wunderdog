@@ -1,6 +1,6 @@
 ---
 published: true
-title: Products and Accessories
+title: Products
 ---
 
 Products and accessories

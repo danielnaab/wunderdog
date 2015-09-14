@@ -1,13 +1,30 @@
-ul#menu {
-    float: right;
-    padding: 0 1em 1em 0;
+p.intro {
+    font-size: 120%;
+    a {
+        color: $wunderdog-red;
+    }
+}
+
+#menu-container {
+    @include clearfix;
+    padding-bottom: 1em;
+    ul#menu {
+        text-transform: uppercase;
+        float: right;
+        li {
+            display: inline-block;
+            padding-left: 1em;
+            padding-right: .4em;
+        }
+    }
 }
 
 article.service {
     @include clearfix;
     display: none;
     &:target {
-        display: block
+        display: block;
+        padding-top: 1em;
     }
     h2, h3, h4, h5 {
         text-align: left;

@@ -1,6 +1,6 @@
 ---
 published: true
-title: Presentation Services
+title: Presentation
 ---
 
 Presentation Services text here

@@ -1,6 +1,6 @@
 ---
 published: true
-title: "In-Home Care"
+title: "In-Home"
 ---
 
 
