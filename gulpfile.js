@@ -197,9 +197,11 @@ gulp.task('services', function () {
         .pipe((function () {
             var services = []
             return through.obj(function (file, enc, cb) {
-                services.push(file.page)
-                services[services.length - 1].content = file.contents.toString()
-                this.push(file)
+                if (file.page.published){
+                    services.push(file.page)
+                    services[services.length - 1].content = file.contents.toString()
+                    this.push(file)
+                }
                 cb()
             },
             function (cb) {
