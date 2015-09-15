@@ -12,7 +12,7 @@ var _ = require('underscore'),
     htmlmin = require('gulp-htmlmin'),
     marked = require('gulp-marked'),
     merge = require('merge-stream'),
-    minifycss = require('gulp-minify-css'),
+    //minifycss = require('gulp-minify-css'),
     path = require('path'),
     rename = require('gulp-rename'),
     rimraf = require('gulp-rimraf'),
@@ -395,7 +395,7 @@ gulp.task('watch', ['default'], function () {
     gulp.watch(['assets/images/**'], ['images'])
     gulp.watch(['assets/fonts/**'], ['fonts'])
 
-    gulp.watch(['content/pages/**', 'content/testimonials/**'], ['pages'])
+    gulp.watch(['content/pages/**', 'content/testimonials/**', 'content/services/**'], ['pages'])
     gulp.watch(['content/posts/**'], ['posts', 'rss'])
 
     scripts(true)
