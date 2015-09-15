@@ -8,17 +8,11 @@
             <li><a href="#service-overview">Overview</a></li>
             {% for service in site.services %}
                 <li>
-                    <a href="#service-{{loop.index}}">{{service.title}}</a>
+                    <a href="#service-{{service.title|slugify|lower}}">{{service.title}}</a>
                 </li>
             {% endfor %}
         </ul>
     </div>
-
-    {% for service in site.services %}
-        <article id="service-{{loop.index}}" class="service">
-            {% include "include/_service.html" %}
-        </article>
-    {% endfor %}
 
     <article id="service-overview" class="service">
         <p class="intro">Whether you choose personalized training or a group class, Wunderdog, LLC will provide you exceptional service from nose to tail!</p>
@@ -46,4 +40,10 @@
         <p>Book us for your next Fundraiser!</p>
         <p>We will donate a basket worth over $100 in items and services! The only thing we expect is a listing in your fundraising advertisements and/or a booth at your event!</p>
     </article>
+
+    {% for service in site.services %}
+        <article id="service-{{service.title|slugify|lower}}" class="service">
+            {% include "include/_service.html" %}
+        </article>
+    {% endfor %}
 {% endblock %}
