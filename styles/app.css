@@ -2269,8 +2269,6 @@ body {
   body.journal article img {
     float: right;
     padding: 1em; }
-  body.services a {
-    color: #ee1d25; }
   body.services p.intro {
     font-size: 120%; }
   body.services #menu-container {
@@ -2290,6 +2288,8 @@ body {
           color: black; }
           body.services #menu-container ul#menu li a:hover {
             color: #ee1d25; }
+          body.services #menu-container ul#menu li a.selected {
+            font-weight: bold; }
   body.services article.service {
     display: none; }
     body.services article.service:after {
@@ -2299,6 +2299,8 @@ body {
     body.services article.service:target {
       display: block;
       padding-top: 1em; }
+    body.services article.service a {
+      color: #ee1d25; }
     body.services article.service h2, body.services article.service h3, body.services article.service h4, body.services article.service h5 {
       text-align: left; }
     body.services article.service ul {
