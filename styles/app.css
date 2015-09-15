@@ -2323,7 +2323,8 @@ body {
       font-size: 120%; }
     body.testimonials article img {
       float: left;
-      margin: 5px 10px 5px 0px; }
+      margin: 5px 10px 5px 0px;
+      width: 237px; }
     body.testimonials article ul {
       float: right;
       font-style: italic; }
