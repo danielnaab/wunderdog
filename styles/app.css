@@ -2288,6 +2288,8 @@ body {
         padding-right: .4em; }
         body.services #menu-container ul#menu li a {
           color: black; }
+          body.services #menu-container ul#menu li a:hover {
+            color: #ee1d25; }
   body.services article.service {
     display: none; }
     body.services article.service:after {
