@@ -307,7 +307,7 @@ gulp.task('styles', ['cleanstyles'], function () {
                 'node_modules/font-awesome/scss'
             ]
         }))
-        .pipe(gulpif(!DEBUG, minifycss()))
+        //.pipe(gulpif(!DEBUG, minifycss()))
         .pipe(gulp.dest('dist/styles'))
         .pipe(connect.reload())
 })
