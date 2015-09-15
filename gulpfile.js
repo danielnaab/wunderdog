@@ -315,19 +315,6 @@ gulp.task('styles', ['cleanstyles'], function () {
 })
 
 
-gulp.task('cleanfavicon', function () {
-    return gulp.src(['dist/favicon.ico'], {read: false})
-        .pipe(rimraf())
-})
-
-
-gulp.task('favicon', ['cleanfavicon'], function () {
-    return gulp.src('assets/favicon.ico')
-        .pipe(gulp.dest('dist'))
-        .pipe(connect.reload())
-})
-
-
 function scripts(watch) {
     var args = watch ? _.clone(watchify.args) : {}
     args.debug = DEBUG
@@ -380,7 +367,7 @@ gulp.task('rss', ['posts'], function () {
 
 
 gulp.task('content', ['posts', 'pages', 'rss'])
-gulp.task('default', ['content', 'images', 'fonts', 'styles', 'favicon', 'rss'])
+gulp.task('default', ['content', 'images', 'fonts', 'styles', 'rss'])
 
 
 gulp.task('clean', function() {
