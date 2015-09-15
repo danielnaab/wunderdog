@@ -21,7 +21,7 @@
     "gulp-htmlmin": "^0.2.0",
     "gulp-if": "^1.2.5",
     "gulp-marked": "^1.0.0",
-    "gulp-minify-css": "^0.3.11",
+    "gulp-minify-css": "^1.2.1",
     "gulp-rename": "^1.2.0",
     "gulp-rimraf": "^0.1.1",
     "gulp-sass": "^1.1.0",
