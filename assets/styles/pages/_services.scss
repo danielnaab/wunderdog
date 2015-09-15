@@ -1,7 +1,3 @@
-a {
-    color: $wunderdog-red;
-}
-
 p.intro {
     font-size: 120%;
 }
@@ -18,6 +14,9 @@ p.intro {
                 &:hover {
                     color: $wunderdog-red;
                 }
+                &.selected {
+                    font-weight: bold;
+                }
             }
             display: inline-block;
             padding-left: 1em;
@@ -32,6 +31,9 @@ article.service {
     &:target {
         display: block;
         padding-top: 1em;
+    }
+    a {
+        color: $wunderdog-red;
     }
     h2, h3, h4, h5 {
         text-align: left;
