@@ -1,5 +1,5 @@
 <h2>{{service.title}}</h2>
 {% if service.image %}
-    <img src="images/services/{{service.image}}" alt="{{service.author}}" />
+    <img src="{{site.urlRoot}}images/services/{{service.image}}" alt="{{service.author}}" />
 {% endif %}
 {{service.content|safe}}

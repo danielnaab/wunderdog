@@ -2,10 +2,16 @@
     margin-bottom: 1em;
     padding: 1em;
     border-bottom: solid 1px lightgray;
+    min-height: 180px;
     h3 {
         float: right;
         font-weight: normal;
         color: black;
         text-transform: none;
+    }
+    img {
+        float: left;
+        width: 200px;
+        padding: 1em;
     }
 }

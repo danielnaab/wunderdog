@@ -1,5 +1,5 @@
 {% if testimonial.image %}
-    <img src="images/testimonials/{{testimonial.image}}" alt="{{testimonial.author}}" />
+    <img src="{{site.urlRoot}}images/testimonials/{{testimonial.image}}" alt="{{testimonial.author}}" />
 {% endif %}
 {% if testimonial.dog %}<h2>{{testimonial.dog}}</h2>{% endif %}
 {% if testimonial.issues %}<h3>{{testimonial.issues}}</h3>{% endif %}

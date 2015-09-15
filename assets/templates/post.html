@@ -11,6 +11,7 @@
         </div>
         <h3 class="published">{{page.date|date('M j, Y')}}</h3>
     </header>
+    {% if page.image %}<img src="../images/posts/{{page.image}}" alt="{{page.title}}">{% endif %}
     {{content|safe}}
 </article>
 {% if page.allowComments %}

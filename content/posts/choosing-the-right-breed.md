@@ -3,6 +3,7 @@ published: true
 title: Choosing The Right Breed For You and Your Family
 date: 2012-03-01
 allowComments: true
+image: choosing-breed.png
 ---
 
 Dogs of many sizes, shapes and personalities are available for purchase or adoption. The main thing that you, the potential owner, must recognize and understand, is that BEFORE you commit, you must have all the facts.

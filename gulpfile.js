@@ -100,7 +100,11 @@ gulp.task('cleanposts', function () {
 
 
 gulp.task('posts', ['cleanposts'], function () {
-    return gulp.src('content/posts/*.md')
+    // Copy blog images over.
+    var images = gulp.src(['content/posts/*.jpg', 'content/posts/*.png'])
+        .pipe(gulp.dest('dist/images/posts'))
+
+    var posts = gulp.src('content/posts/*.md')
         .pipe(frontMatter({property: 'page', remove: true}))
         .pipe(marked())
         .pipe(summarize('<!--more-->'))
@@ -135,6 +139,9 @@ gulp.task('posts', ['cleanposts'], function () {
         })())
         .pipe(applyTemplate('assets/templates/post.html'))
         .pipe(gulp.dest('dist/posts'))
+        .pipe(connect.reload())
+
+    return merge(images, posts)
         .pipe(connect.reload())
 })
 
@@ -221,7 +228,7 @@ gulp.task('cleanpages', function () {
 })
 
 
-gulp.task('pages', ['cleanpages', 'testimonials', 'services'], function () {
+gulp.task('pages', ['cleanpages', 'testimonials', 'services',], function () {
     var html = gulp.src(['content/pages/*.html'])
         .pipe(frontMatter({property: 'page', remove: true}))
         .pipe(through.obj(function (file, enc, cb) {
