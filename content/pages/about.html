@@ -1,23 +1,32 @@
 {% extends 'base.html' %}
+{% set page.title = "About" %}
+{% set page.nav = "about" %}
 
 {% block content %}
-<article>
-    <h3>Since 1998</h3>
-    <p>A family business based on trust, knowledge, and integrity...</p>
+<div id="info">
+    <article class="about">
+        <h3>Since 1998</h3>
+        <p>A family business based on trust, knowledge, and integrity...</p>
 
-    <p>Our mission at Wunderdog is to strengthen and improve the relationship between dog and owner. With a better understanding of innate dog behavior, both owner and dog will benefit, and Wunderdog strives to teach this to our clients in a way that everyone can understand.</p>
+        <p>Our mission at Wunderdog is to strengthen and improve the relationship between dog and owner. With a better understanding of innate dog behavior, both owner and dog will benefit, and Wunderdog strives to teach this to our clients in a way that everyone can understand.</p>
 
-    <p>Whether our clients have chosen grooming, training, extended care, in home routine and specialized visits, or daycamp, we have provided these services with instruction and insight. We don't just offer training to the adults, we offer training to all members of the family - children included (at no extra charge)! Because at Wunderdog, we are readily attending (and receiving CEU's where available) the latest educational seminars and classes in Grooming and Canine Behavior (and also maintain professional-level membership of many accredited canine organizations), we offer many types of training - including the most currently used methods.</p>
+        <p>Whether our clients have chosen grooming, training, extended care, in home routine and specialized visits, or daycamp, we have provided these services with instruction and insight. We don't just offer training to the adults, we offer training to all members of the family - children included (at no extra charge)! Because at Wunderdog, we are readily attending (and receiving CEU's where available) the latest educational seminars and classes in Grooming and Canine Behavior (and also maintain professional-level membership of many accredited canine organizations), we offer many types of training - including the most currently used methods.</p>
 
-    <p>We offer breed-selection services to clients who are trying to decide on the breed best suited for their lifestyle and family. Because it is our mission to improve the lives of both owners and their canine companions, we feel this is a necessary service and have had great success in our recommendations.</p>
-    ﻿
-    <h3>WUNDERDOG'S PHILOSOPHY</h3>
+        <p>We offer breed-selection services to clients who are trying to decide on the breed best suited for their lifestyle and family. Because it is our mission to improve the lives of both owners and their canine companions, we feel this is a necessary service and have had great success in our recommendations.</p>
+    </article>
+    <article class="philosophy">
+        <h3>WUNDERDOG'S PHILOSOPHY</h3>
 
-    <p>Our philosophy at Wunderdog is based on the humane treatment of animals. It is our belief that all animals deserve respect, and a loving touch. At Wunderdog, your dog will feel like he/she is part of the family, and not just another visitor. Because we are well-trained in the areas of animal behavior and training, Wunderdog continues to have success in the extended stay, day camp and training programs. It is our belief that you can never be too careful with an animal's safety, and we take the necessary precautions when placing animals together, etc.</p>
+        <p>Our philosophy at Wunderdog is based on the humane treatment of animals. It is our belief that all animals deserve respect, and a loving touch. At Wunderdog, your dog will feel like he/she is part of the family, and not just another visitor. Because we are well-trained in the areas of animal behavior and training, Wunderdog continues to have success in the extended stay, day camp and training programs. It is our belief that you can never be too careful with an animal's safety, and we take the necessary precautions when placing animals together, etc.</p>
 
-    <p>We believe in using most training devices, as long as they are used in an efficient, positive, and healthy manner. We do research and explore the benefits or adverse (physical and mental) effects of different training devices, and offer our knowledge/experience to our clients as well as the ordering of particular devices at reasonable costs.﻿﻿﻿﻿﻿</p>
+        <p>We believe in using most training devices, as long as they are used in an efficient, positive, and healthy manner. We do research and explore the benefits or adverse (physical and mental) effects of different training devices, and offer our knowledge/experience to our clients as well as the ordering of particular devices at reasonable costs.﻿﻿﻿﻿﻿</p>
+    </article>
+</div>
 
+<div id="staff">
+    <h1>Staff</h1>
     <article id="staff-lynn">
+        <img id="lynn-photo" src="{{site.urlRoot}}images/about/lynn.png" alt="Lynn Wunderli">
         <h3>Lynn Wunderli</h3>
         <h4>Founder &amp; Trainer</h4>
         <p>Owner and President of Wunderdog K-9 Care and Training, LLC, Lynn has been training dogs for over 35 years. Her knowledge and experience with dogs began as a child, because her father was a successful breeder and trainer of English Setters and Pointers for over 55 years (in Illinois). This early exposure in dog behavior and training was supplemented by her college education in teaching and psychology, and her interest and experience in dog training never stopped. Lynn has worked in many settings, volunteering at the University of Illinois Vet School, working at an Animal Emergency Center in Atlanta, GA, and continues to further her education in the field of animal behavior, training and grooming. Lynn has bred and shown Giant Schnauzers, and frequently attends state and national dog shows, allowing her to attend many different types of seminars within the dog field, and specific to many breeds. Working in the continuing education department at the CDC from 1989-1992 allowed Lynn to learn more about communicable disease and public health, which has been helpful in her understanding diseases similar in the canine world, and assessing the risks in canine community environments.</p> 
@@ -26,7 +35,8 @@
 
         <p>Because the ingredients of commercial dog food is key to the health (and sometimes, behavior) of canines, Lynn has done research to find and supply her clients with high quality pet food and Wunderdog includes food delivery in the list of services offered. She has also recently designed a canine fitness program that she has applied to her own dogs, and also offered to her clients. This program has maintained success for over ten years running. Integrating aromatherapy into her daily routine of day damp, grooming and training, Lynn believes that this, as well as massage, these are positive additives to the "daily grind" of canine and owner.</p> 
 
-        Professional Education and Affiliation Profile:
+        <h4>Professional Education and Affiliation Profile</h4>
+        <img id="cgc-logo" src="{{site.urlRoot}}images/about/cgc.jpg" alt="Canine Good Citizen">
         <ul>
             <li>Completed Grooming Seminar, Kentucky Cluster Dog Show (GSCA National) 1998</li>
             <li>American Kennel Club (AKC) Certified Canine Good Citizen (CGC) Evaluator (#91540)</li>
@@ -51,9 +61,11 @@
         <p>As personal pets, Lynn and Peter have one Giant Schnauzer (Rocket), a Shih Tzu/Pomerania mix (Napoleon).</p>
     </article>
 
-    <article>
+    <article id="staff-peter">
         <h3>Peter Wunderli</h3>
         <h4>Co-Founder</h4>
+        <p>Peter has been one of the foremost reasons Wunderdog has been such a great success. He has always encouraged Lynn to follow her dreams in the animal world, and has always supported and nurtured that. He sits on the board of our business as primary member and co-founder. Because of Peter's extensive background in immunology and microbiology, many years spent at the University of IL and GA vet schools, he is able to lend his knowledge to Wunderdog.</p>
+        <p>He is a gifted "handy man" who does everything from fencing to carpentry.  Peter was a driving force in the acquiring of our first Giant Schnauzer, and has fancied the breed ever since. Wunderdog would not exist without Peter Wunderli!</p>
     </article>
-</article>
+</div>
 {% endblock %}

@@ -1,9 +1,41 @@
-#staff-lynn {
-    ul {
-        list-style-type: circle;
+#info {
+    @include clearfix;
+    border-bottom: solid 1px lightgray;
+    article {
+        &.about {
+            float: left;
+            width: 60%;
+        }
+        &.philosophy {
+        }
     }
 }
 
-#staff-peter {
+#staff {
+    h1 {
+        font-size: 140%;
+    }
+    #staff-lynn {
+        img {
+            &#lynn-photo {
+                float: left;
+                padding: 1em;
+            }
+            &#cgc-logo {
+                float: right;
+                padding: 1em;
+                width: 200px;
+            }
+        }
+        ul {
+            list-style-type: disc;
+            margin-bottom: 1em;
+            li {
+                margin-left: 2em;
+            }
+        }
+    }
+    #staff-peter {
 
+    }
 }
