@@ -31,7 +31,12 @@ module.exports = function() {
         $('.slideshow > #radio-' + (page + 1)).prop('checked', true)
     }, 5000)
 
+    // On touch devices, show the testimonial on click.
     $('article.testimonial div').on('click', function () {
-        $(this).toggleClass('selected')
+        // Clear other "selected" testimonials.
+        $('article.testimonial div').removeClass('selected')
+
+        // Add class to the clicked element.
+        $(this).addClass('selected')
     })
 }
