@@ -123,7 +123,7 @@ section {
                     width: 100%;
                     background-color: black;
                 }
-                &:hover img {
+                &:hover img, &.selected img {
                     opacity: 0.15;
                 }
                 & > div {

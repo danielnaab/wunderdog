@@ -31,7 +31,7 @@ module.exports = function() {
         $('.slideshow > #radio-' + (page + 1)).prop('checked', true)
     }, 5000)
 
-    $('article.testimonial img').click(function () {
-        $(this).next().toggleClass('selected')
+    $('article.testimonial div').on('click', function () {
+        $(this).toggleClass('selected')
     })
 }
