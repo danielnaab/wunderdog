@@ -2204,7 +2204,7 @@ body {
               padding: 0; }
             body.home section.testimonials .samples article > div > * {
               display: none; }
-            body.home section.testimonials .samples article > div:hover > * {
+            body.home section.testimonials .samples article > div:hover > *, body.home section.testimonials .samples article > div.selected > * {
               display: block; }
             body.home section.testimonials .samples article > div a.more {
               font-size: 3em;
