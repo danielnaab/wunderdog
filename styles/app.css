@@ -2032,12 +2032,14 @@ body {
     body > header a.logo {
       position: absolute;
       left: 0;
-      text-align: right; }
+      text-align: right;
+      margin-left: 2em; }
     body > header ul.menu {
       position: absolute;
       bottom: 0;
       right: 0;
-      padding: 10px; }
+      padding-left: 10px;
+      margin-right: 2em; }
       body > header ul.menu li.active a {
         color: #ee1d25;
         font-weight: bold; }
