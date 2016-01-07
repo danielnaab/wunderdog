@@ -296,6 +296,13 @@ gulp.task('fonts', function () {
 })
 
 
+gulp.task('extra', function () {
+    return gulp.src('assets/extra/**')
+        .pipe(gulp.dest('dist'))
+        .pipe(connect.reload())
+})
+
+
 gulp.task('cleanstyles', function () {
     return gulp.src(['dist/styles'], {read: false})
         .pipe(rimraf())
@@ -367,7 +374,7 @@ gulp.task('rss', ['posts'], function () {
 
 
 gulp.task('content', ['posts', 'pages', 'rss'])
-gulp.task('default', ['content', 'images', 'fonts', 'styles', 'rss'])
+gulp.task('default', ['content', 'images', 'fonts', 'styles', 'rss', 'extra'])
 
 
 gulp.task('clean', function() {
@@ -381,6 +388,7 @@ gulp.task('watch', ['default'], function () {
     gulp.watch(['assets/styles/**'], ['styles'])
     gulp.watch(['assets/images/**'], ['images'])
     gulp.watch(['assets/fonts/**'], ['fonts'])
+    gulp.watch(['assets/extra/**'], ['extra'])
 
     gulp.watch(['content/pages/**', 'content/testimonials/**', 'content/services/**'], ['pages'])
     gulp.watch(['content/posts/**'], ['posts', 'rss'])
