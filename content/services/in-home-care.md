@@ -13,8 +13,8 @@ ROUTINE CARE (30 minutes excercise, massage, brushing, obedience, fresh water, l
 $1 add for each additional dog within the same household
 *Within 10 miles of Waunakee; additional charges for mileage may apply.
 
-"HOME SCHOOL:" (30 to 60 minutes of in-home care combined with training of your choice!  You will receive a written report with each visit):
-$20/1 dog (per visit)
+"HOME SCHOOL:" (30 to 40 minutes of in-home care combined with training of your choice!  You will receive a written report with each visit):
+$25 for 1st dog, $20 each additional dog (per visit).
 
 VACATION CARE (30 to 45 minutes excercise, massage, brushing, feeding, watering, medicating, obedience, lovin', mail collection, catbox cleaning, watering of plants-- whatever you specify!):
 
