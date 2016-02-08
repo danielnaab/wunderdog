@@ -25,11 +25,32 @@ else {
 
 
 module.exports = function () {
-    setInterval(function () {
+    var numSlides = 4
+    function move(diff, timer) {
         var match = $('.slideshow > input:checked').attr('id').match(/radio-(\d+)/)
-        var page = ((match ? match[1] : 1) % 3)
-        $('.slideshow > #radio-' + (page + 1)).prop('checked', true)
-    }, 5000)
+        var curPage = match ? match[1] : 1
+
+        var next = Number(curPage) + diff
+        if (next === 0) {
+            next = numSlides
+        }
+        else if (next > numSlides) {
+            next = 1
+        }
+
+        $('.slideshow > #radio-' + next).prop('checked', true)
+
+        if (timer) {
+            clearInterval(timer)
+        }
+    }
+
+    var goNext = move.bind(null, 1)
+    var goPrev = move.bind(null, -1)
+
+    var timer = setInterval(goNext, 1000)
+    $('.slideshow > .previous-slide').on('click', goPrev.bind(null, timer))
+    $('.slideshow > .next-slide').on('click', goNext.bind(null, timer))
 
     // On touch devices, show the testimonial on click.
     $('article.testimonial div').on('click', function () {

@@ -8,7 +8,14 @@
 
         &#radio-1:checked ~ #image-1,
         &#radio-2:checked ~ #image-2,
-        &#radio-3:checked ~ #image-3 {
+        &#radio-3:checked ~ #image-3,
+        &#radio-4:checked ~ #image-4,
+        &#radio-5:checked ~ #image-5,
+        &#radio-6:checked ~ #image-6,
+        &#radio-7:checked ~ #image-7,
+        &#radio-8:checked ~ #image-8,
+        &#radio-9:checked ~ #image-9,
+        &#radio-10:checked ~ #image-10 {
             display: block;
         }
     }
