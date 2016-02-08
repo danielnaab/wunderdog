@@ -2086,6 +2086,8 @@ body {
       float: left; }
       body > footer div.links > div > a {
         color: white; }
+    body > footer div.links .bom img {
+      padding: 1em 0; }
   body > footer ul.copyright {
     margin: 1.5em;
     list-style-type: none;
