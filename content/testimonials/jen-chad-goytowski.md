@@ -3,7 +3,7 @@ published: true
 author: Jen and Chad Goytowski
 authorLocation: Madison, WI
 authorUrl:
-image:
+image: jen-chad-goytowski.png
 dog: Brantley
 issues: possession aggression, family pack structure, manners work
 ---

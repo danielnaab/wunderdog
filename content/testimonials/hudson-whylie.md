@@ -3,7 +3,7 @@ published: true
 author: The Hudson/Whylie Family (and chickens!)
 authorLocation: Madison, WI
 authorUrl:
-image:
+image: hudson-whylie.png
 dog: Dash
 issues: Great Beginnings puppy and family pack structure
 ---

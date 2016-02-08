@@ -3,7 +3,7 @@ published: true
 author: Amy
 authorLocation: Madison, WI
 authorUrl:
-image:
+image: amy-bella-maisy-emmi.png
 dog: Bella, Maisy and Emmi
 issues: Desensitization, family pack harmony
 ---

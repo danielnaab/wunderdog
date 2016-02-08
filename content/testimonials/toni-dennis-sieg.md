@@ -3,7 +3,7 @@ published: true
 author: Toni and Dennis Sieg
 authorLocation: Cottage Grove, WI
 authorUrl:
-image:
+image: toni-dennis-sieg.jpg
 dog: Lenny and Heidi
 issues: Family pack structure, dominance aggression, redirected aggression, manners
 ---

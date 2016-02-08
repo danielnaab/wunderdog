@@ -3,7 +3,7 @@ published: true
 author: Rod and Linda Witt
 authorLocation: Sun Prairie, WI
 authorUrl:
-image:
+image: rod-linda-witt.png
 dog: Annie
 issues: Basic obedience and "hearing" for the DEAF DOG
 ---

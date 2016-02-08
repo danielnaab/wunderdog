@@ -3,7 +3,7 @@ published: true
 author: Becky Pedretti
 authorLocation: Madison, WI
 authorUrl:
-image:
+image: becky-chris-pedretti.png
 dog: Jinx
 issues: Redirected aggression, family pack structure
 ---

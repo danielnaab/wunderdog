@@ -4,7 +4,7 @@ author: Sara Petzold
 authorLocation: Madison, WI
 authorUrl:
 signees:
-image:
+image: sara-petzold.png
 dog: Milo
 issues: Family pack structure, manners, fearful aggression, desensitization
 ---

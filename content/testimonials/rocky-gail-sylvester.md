@@ -3,7 +3,7 @@ published: true
 author: Rocky and Gail Sylvester
 authorLocation: Merrimac, WI
 authorUrl:
-image:
+image: rocky-gail-sylvester.png
 dog: Chloee
 issues: Fearful and defensive Aggression, basic obedience
 ---

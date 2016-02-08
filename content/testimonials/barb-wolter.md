@@ -3,7 +3,7 @@ published: true
 author: Barb Wolter
 authorLocation: Madison, WI
 authorUrl:
-image:
+image: barb-wolter.jpg
 dog: Downton Abbey "The Wunder Dog" (now a volunteer therapy dog)
 issues: Desensitization, family pack harmony
 ---
