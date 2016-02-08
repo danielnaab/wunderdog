@@ -47,6 +47,9 @@
                 <li {% if page.nav == "blog"%}class="active"{% endif%}>
                     <a href="{{site.urlRoot}}blog.html">Blog</a>
                 </li>
+                <li {% if page.nav == "links"%}class="active"{% endif%}>
+                    <a href="{{site.urlRoot}}links.html">Links</a>
+                </li>
                 <li {% if page.nav == "contact"%}class="active"{% endif%}>
                     <a href="{{site.urlRoot}}contact.html">Contact</a>
                 </li>
@@ -101,6 +104,10 @@
                         </li>
                         <li>
                             <i class="fa fa-caret-right"></i>
+                            <a href="{{site.urlRoot}}links.html">Links</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
                             <a href="{{site.urlRoot}}contact.html">Contact Us</a>
                         </li>
                     </ul>
@@ -113,6 +120,9 @@
                     </p>
                     <i class="fa fa-caret-right"></i>
                     <a href="{{site.urlRoot}}contact.html">Contact us now!</a>
+                    <a class="bom" href="{{site.urlRoot}}posts/best-of-madison-2016.html">
+                        <img src="{{site.urlRoot}}images/best-of-madison-2016-silver.svg" alt="Best of Madison 2016 Winner" />
+                    </a>
                 </div>
             </div>
             <ul class="copyright">

@@ -101,7 +101,9 @@ gulp.task('cleanposts', function () {
 
 gulp.task('posts', ['cleanposts'], function () {
     // Copy blog images over.
-    var images = gulp.src(['content/posts/*.jpg', 'content/posts/*.png'])
+    var images = gulp.src(['content/posts/*.jpg',
+                           'content/posts/*.png',
+                           'content/posts/*.svg'])
         .pipe(gulp.dest('dist/images/posts'))
 
     var posts = gulp.src('content/posts/*.md')
