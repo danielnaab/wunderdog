@@ -160,9 +160,11 @@ gulp.task('testimonials', function () {
         .pipe((function () {
             var testimonials = []
             return through.obj(function (file, enc, cb) {
-                testimonials.push(file.page)
-                testimonials[testimonials.length - 1].content = file.contents.toString()
-                this.push(file)
+                if (file.page.published) {
+                    testimonials.push(file.page)
+                    testimonials[testimonials.length - 1].content = file.contents.toString()
+                    this.push(file)
+                }
                 cb()
             },
             function (cb) {
@@ -199,7 +201,7 @@ gulp.task('services', function () {
         .pipe((function () {
             var services = []
             return through.obj(function (file, enc, cb) {
-                if (file.page.published){
+                if (file.page.published) {
                     services.push(file.page)
                     services[services.length - 1].content = file.contents.toString()
                     this.push(file)
