@@ -48,7 +48,7 @@ module.exports = function () {
     var goNext = move.bind(null, 1)
     var goPrev = move.bind(null, -1)
 
-    var timer = setInterval(goNext, 1000)
+    var timer = setInterval(goNext, 5000)
     $('.slideshow > .previous-slide').on('click', goPrev.bind(null, timer))
     $('.slideshow > .next-slide').on('click', goNext.bind(null, timer))
 
