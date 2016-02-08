@@ -41,6 +41,18 @@ prose:
           value: true
           on: "true"
           off: "false"
+      - name: "dog"
+        field:
+          element: "text"
+          label: "Dog Name"
+          help: "The name of the dog(s) for this testimonial."
+          placeholder: "Enter dog name"
+      - name: "issues"
+        field:
+          element: "text"
+          label: "Dog Issues"
+          help: "The issues this dog has/had."
+          placeholder: "Enter dog's issues"
       - name: "author"
         field:
           element: "text"
@@ -59,6 +71,12 @@ prose:
           label: "Author URL"
           help: "A web URL for this author, if available."
           placeholder: "Enter author URL"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image File Name"
+          help: "The file name for an image for this testimonial."
+          placeholder: "Enter image file name"
       - name: "signees"
         field:
           element: "hidden"
