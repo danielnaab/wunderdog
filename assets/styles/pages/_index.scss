@@ -31,6 +31,32 @@
             z-index: 1;
         }
     }
+    button {
+        display: none;
+    }
+    &:hover button {
+        display: block;
+        position: absolute;
+        background: black;
+        background: rgba(0, 0, 0, 0.5);
+        border: none;
+        outline: none;
+        font-size: 2em;
+        color: white;
+        top: 200px;
+        &.previous-slide {
+            left: 10px;
+        }
+        &.next-slide {
+            right: 10px;
+        }
+        &:hover {
+            color: black;
+            background: white;
+            background: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+        }
+    }
 }
 
 
