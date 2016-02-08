@@ -3,7 +3,7 @@
 var $ = require('zepto-browserify').$
 
 
-module.exports = function() {
+module.exports = function () {
     function updateHash() {
         window.scrollTo(0, 0)
         $('#menu a').removeClass('selected')

@@ -16,6 +16,6 @@ We also knew we wanted to train Brantley with an e-collar so we could trust him 
 
 At the end of our training, Brantley is a completely different dog. He's completely settled, heels on leash, no long jumps on guests and now greets and plays with other dogs properly!
 
-Friends and family are amazing at what a good day he has turned into. Strangers have even come up to us commenting on what a good dog he is and they wish their dog was that well behaved.
+Friends and family are amazing at what a good dog he has turned into. Strangers have even come up to us commenting on what a good dog he is and they wish their dog was that well behaved.
 
 Lynn worked wonders with Brantley and we are so thankful for all of her endless knowledge she shared with us!

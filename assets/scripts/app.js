@@ -12,7 +12,7 @@ var pages = {
 
 
 // Fade out header image as the page scrolls down.
-$(window).on('scroll', function() {
+$(window).on('scroll', function () {
     var opac = 1 - $(window).scrollTop() / $('header').height()
     $('header').css({
         opacity: opac
@@ -21,7 +21,7 @@ $(window).on('scroll', function() {
 
 
 // Execute page-specific Javascript.
-$(document).ready(function() {
+$(document).ready(function () {
     var page = $('body').prop('className')
     if (pages.hasOwnProperty(page)) {
         pages[page]()

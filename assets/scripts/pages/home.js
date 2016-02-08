@@ -6,7 +6,7 @@ var $ = require('zepto-browserify').$
 // Define a function to replace the URL hash without updating browser history.
 var replaceHash = null
 if ('replaceState' in history) {
-    replaceHash = function(newhash) {
+    replaceHash = function (newhash) {
         if (('' + newhash).charAt(0) !== '#') {
             newhash = '#' + newhash
         }
@@ -15,7 +15,7 @@ if ('replaceState' in history) {
 }
 else {
     var hash = location.hash
-    replaceHash = function(newhash) {
+    replaceHash = function (newhash) {
         if (location.hash !== hash) {
             history.back()
         }
@@ -24,8 +24,8 @@ else {
 }
 
 
-module.exports = function() {
-    setInterval(function() {
+module.exports = function () {
+    setInterval(function () {
         var match = $('.slideshow > input:checked').attr('id').match(/radio-(\d+)/)
         var page = ((match ? match[1] : 1) % 3)
         $('.slideshow > #radio-' + (page + 1)).prop('checked', true)

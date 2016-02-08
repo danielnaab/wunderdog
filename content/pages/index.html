@@ -7,20 +7,25 @@
         <input type="radio" name="selected-item" id="radio-1" value="1" checked style="display: none;">
         <input type="radio" name="selected-item" id="radio-2" value="2" style="display: none;">
         <input type="radio" name="selected-item" id="radio-3" value="3" style="display: none;">
-
+        <input type="radio" name="selected-item" id="radio-4" value="4" style="display: none;">
         <div id="image-1">
-            <a href="{{site.urlRoot}}about.html">
-                <img src="{{site.urlRoot}}images/slideshow/1.png" alt="slideshow 1">
+            <a href="{{site.urlRoot}}posts/best-of-madison-2016.html">
+                <img src="{{site.urlRoot}}images/slideshow/bom.png" alt="We're a Best of Madison 2016 Winner!">
             </a>
         </div>
         <div id="image-2">
-            <a href="{{site.urlRoot}}services.html">
-                <img src="{{site.urlRoot}}images/slideshow/2.png" alt="slideshow 2">
+            <a href="{{site.urlRoot}}about.html">
+                <img src="{{site.urlRoot}}images/slideshow/about.png" alt="About Us">
             </a>
         </div>
         <div id="image-3">
+            <a href="{{site.urlRoot}}services.html">
+                <img src="{{site.urlRoot}}images/slideshow/services.png" alt="Our Services">
+            </a>
+        </div>
+        <div id="image-4">
             <a href="{{site.urlRoot}}blog.html">
-                <img src="{{site.urlRoot}}images/slideshow/3.png" alt="slideshow 3">
+                <img src="{{site.urlRoot}}images/slideshow/blog.png" alt="Blog">
             </a>
         </div>
     </section>
@@ -33,7 +38,7 @@
 
     <section class="info">
         <ul>
-            <li>
+            <div>
                 <a href="{{site.urlRoot}}about.html#staff-lynn">
                     <img src="{{site.urlRoot}}images/info/circle-pic-1.png" alt="qualifications">
                 </a>
@@ -43,8 +48,8 @@
                     <i class="fa fa-caret-right"></i>
                     Read more
                 </a>
-            </li>
-            <li>
+            </div>
+            <div>
                 <a href="{{site.urlRoot}}services.html#service-training">
                     <img src="{{site.urlRoot}}images/info/circle-pic-2.png" alt="individual training">
                 </a>
@@ -54,8 +59,8 @@
                     <i class="fa fa-caret-right"></i>
                     Learn more
                 </a>
-            </li>
-            <li>
+            </div>
+            <div>
                 <a href="{{site.urlRoot}}services.html#service-in-home">
                     <img src="{{site.urlRoot}}images/info/circle-pic-3.png" alt="boarding and in-home stays">
                 </a>
@@ -65,7 +70,7 @@
                     <i class="fa fa-caret-right"></i>
                     Find out more
                 </a>
-            </li>
+            </div>
         </ul>
     </section>
 
@@ -180,13 +185,13 @@
     {#<section class="services">
         <h3><a href="{{site.urlRoot}}services.html">Services</a></h3>
         <ul>
-            <li>Puppies beginning their lives with owners--good beginning practices, setting up for success</li>
-            <li>People experiencing issues with their dogs who need help</li>
-            <li>individuals wishing to CGC certify their dogs (Canine Good Citizenship)</li>
-            <li>neighborhood associations, condo assoc, apartment complexes wishing to put a program in place to CGC certify resident dogs</li>
-            <li>group classes (look for future dates)</li>
-            <li>some in-home care (don't know how much I want to go into this--I only do it for select clients, but want to leave that door open...)</li>
-            <li>local daycares that need staff training or guidance in improving their program (presentations, personal or group training...)</li>
+            <div>Puppies beginning their lives with owners--good beginning practices, setting up for success</div>
+            <div>People experiencing issues with their dogs who need help</div>
+            <div>individuals wishing to CGC certify their dogs (Canine Good Citizenship)</div>
+            <div>neighborhood associations, condo assoc, apartment complexes wishing to put a program in place to CGC certify resident dogs</div>
+            <div>group classes (look for future dates)</div>
+            <div>some in-home care (don't know how much I want to go into this--I only do it for select clients, but want to leave that door open...)</div>
+            <div>local daycares that need staff training or guidance in improving their program (presentations, personal or group training...)</div>
         </ul>
     </section>#}
 {% endblock %}
