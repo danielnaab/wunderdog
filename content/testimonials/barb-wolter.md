@@ -4,8 +4,8 @@ author: Barb Wolter
 authorLocation: Madison, WI
 authorUrl:
 image: barb-wolter.jpg
-dog: Downton Abbey "The Wunder Dog" (now a volunteer therapy dog)
-issues: Desensitization, family pack harmony
+dog: Downton Abbey "The Wunder Dog" (CGC certified and volunteering)
+issues: Basic obedience, family pack structure, CGC certification
 ---
 
 Abbey came to me by way of divine intervention. I had been a care-giver for my 97 year old father for almost eight months, 24/7, and lost him on Christmas Day, last year. I slipped into a very dark place, not knowing how to begin living again. On January 24th, 2015, Miss Downton Abbey came to me through [tracysdogs.com](http://tracysdogs.com), a San Antonio, TX, dog rescue where she was hours from being euthanized. I chose her from 80 or more dog videos and immediately felt a long-range connection to her. When she arrived, and I held her in my arms the first time, I felt my deceased parents had hand-picked her from above to come and help me begin re-crafting the rest of my life.

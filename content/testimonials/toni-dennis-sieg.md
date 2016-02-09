@@ -5,7 +5,7 @@ authorLocation: Cottage Grove, WI
 authorUrl:
 image: toni-dennis-sieg.jpg
 dog: Lenny and Heidi
-issues: Family pack structure, dominance aggression, redirected aggression, manners
+issues: Dominance issues, lack of exposure, family pack structure, manners
 ---
 
 Lynn worked miracles with our two dogs.

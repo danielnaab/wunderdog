@@ -5,7 +5,7 @@ authorLocation: Madison, WI
 authorUrl:
 image: jen-chad-goytowski.png
 dog: Brantley
-issues: possession aggression, family pack structure, manners work
+issues: Possession issues, family pack structure, manners
 ---
 
 We rescued Brantley when he was 10 months old. He was a large lab with absolutely no manners! He was very mouthy, jumped on guests, chased anything from rabbits to cars, pulled on his leash and did not know how to greet other dogs. We tried a lot of different techniques on our own to try to teach him some manners, however, we weren't very successful.

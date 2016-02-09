@@ -25,6 +25,9 @@ body {
     h2 {
         font-size: 1.5em;
     }
+    strong {
+        color: $wunderdog-red;
+    }
     a {
         text-decoration: none;
         &, &:visited {

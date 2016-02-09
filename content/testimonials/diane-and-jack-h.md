@@ -6,7 +6,7 @@ authorUrl:
 signees:
 image: diane-and-jack-h.jpg
 dog: Sassy
-issues: Fear, aggression, lack of leadership
+issues: Dominance-based issues, family pack structuring, basic obedience
 ---
 
 We have a 17 month old Saint Bernard. She had a VERY bad experience with a vet at 5 months of age. It had gotten to the point where she would not let anyone touch her ears or her nails--she would snap at us is we tried either of these with her. We went to a new vet who suggested we give Lynn a call. We did, and it was the right decision.

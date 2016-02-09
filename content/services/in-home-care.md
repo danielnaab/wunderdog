@@ -3,7 +3,6 @@ published: true
 title: "In-Home Care"
 ---
 
-
 Pricing is for service within 10 miles of Waunakee. Additional charges for mileage may apply.
 
 ### ROUTINE CARE: 30 minutes
@@ -15,12 +14,14 @@ Pricing is for service within 10 miles of Waunakee. Additional charges for milea
 ### HOME SCHOOL: 30 to 40 minutes of in-home care combined with training of your choice!
 
 - You will receive a written report with each visit
-- $25 for 1st dog, $20 each additional dog (per visit).
+- Personalized training (1-on-1) with your dog and trainer, including "Balance Training" with Wunderdogs (small or large) where applicable
+- $25/thirty minutes, $40/one hour
+- Session always ends with short play time or romp!
 
 ### VACATION CARE: 30 to 45 minutes
 
-- Exercise, massage, brushing, feeding, watering, medicating, obedience, lovin', mail collection, catbox cleaning, watering of plants-- whatever you specify!
-- $18/1 dog (per visit; scheduled vacations 5 days or more receive a discount of 10% off total care price.)
+- Exercise, massage, brushing, feeding, watering, medicating, obedience, lovin’, mail collection, catbox cleaning, watering of plants, household lights— whatever you specify!
+- $18/1 dog (per visit; scheduled vacations *10 days or more* receive a discount of 10% off total pricing)
 - $1 add for each additional animal within the same household
 
 ### REHABILITATION CARE: Up to 60 minutes as specified in writing by qualified veterinarian, physical therapist, and/or you.

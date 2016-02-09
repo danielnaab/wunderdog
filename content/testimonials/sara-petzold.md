@@ -6,7 +6,7 @@ authorUrl:
 signees:
 image: sara-petzold.png
 dog: Milo
-issues: Family pack structure, manners, fearful aggression, desensitization
+issues: Fear-based issues, manners, lack of exposure
 ---
 
 I got Lynn Wunderli’s business card from Camp K-9 while I was musing to staff about how to endure the coming teen months of my Giant Schnauzer Milo. Milo is a very sweet dog, and I have had Giant Schnauzers before so I am familiar with their energy level, but I have always gotten them at an older age, and there has always been another dog in the house to help with the training.  Not the case with Milo.

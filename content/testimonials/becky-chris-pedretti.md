@@ -5,7 +5,7 @@ authorLocation: Madison, WI
 authorUrl:
 image: becky-chris-pedretti.png
 dog: Jinx
-issues: Redirected aggression, family pack structure
+issues: Dominance-based issues, family pack structure, manners
 ---
 
 Little did I know when I insisted to my husband that we get a boxer we would end up with a "marley" we call her Jinx. initially we tried traditional training with puppy classes. Lets just say that didnt go so well and we were asked to consider private lessons. We did pursue this with your traditional hand signals and treat rewards but we still did not have the dog we wish we had.  Jinx was not obedient, she jumped, chased bikers walkers and runners, and had terrible separation anxiety.

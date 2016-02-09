@@ -5,7 +5,7 @@ authorLocation: Merrimac, WI
 authorUrl:
 image: rocky-gail-sylvester.png
 dog: Chloee
-issues: Fearful and defensive Aggression, basic obedience
+issues: Fear-based issues, family pack structure, basic obedience
 ---
 
 Our precious little girl. A Chocolate brush coat Chinese Shar Pei was born 21 November 2014 in Farmington Iowa. When we contracted Lynn she was about 7 months old. She had some issues! She would jump on our grandchildren (3 and 5) years old. Bark at everything and anything. Would not listen to the command "come."" She had a mind of her own...

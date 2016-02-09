@@ -6,7 +6,7 @@ authorUrl:
 signees:
 image: david-stratford.png
 dog: Jackson
-issues: Anxiety, territorial aggression
+issues: Anxiety, fear, and territorial issues, family pack structure, breed referral service
 ---
 
 I’m going to start at the end:  For having Lynn Wunderli’s guidance, Jackson enjoys life better and I enjoy Jackson better.
