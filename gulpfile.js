@@ -115,19 +115,21 @@ gulp.task('posts', ['cleanposts'], function () {
             var posts = []
             var tags = []
             return through.obj(function (file, enc, cb) {
-                file.page.url = 'posts/' + path.basename(file.path, '.md')
-                posts.push(file.page)
-                posts[posts.length - 1].content = file.contents.toString()
+                if (file.page.published) {
+                    file.page.url = 'posts/' + path.basename(file.path, '.md')
+                    posts.push(file.page)
+                    posts[posts.length - 1].content = file.contents.toString()
 
-                if (file.page.tags) {
-                    file.page.tags.forEach(function (tag) {
-                        if (tags.indexOf(tag) === -1) {
-                            tags.push(tag)
-                        }
-                    })
+                    if (file.page.tags) {
+                        file.page.tags.forEach(function (tag) {
+                            if (tags.indexOf(tag) === -1) {
+                                tags.push(tag)
+                            }
+                        })
+                    }
+
+                    this.push(file)
                 }
-
-                this.push(file)
                 cb()
             },
             function (cb) {
