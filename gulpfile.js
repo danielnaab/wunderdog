@@ -54,8 +54,8 @@ var site = {
 
 // This is deployed to blog.crushingpennies.com/thewunderdog/ (for now).
 if (argv._.indexOf('deploy') > -1) {
-    site.url = 'http://blog.crushingpennies.com/wunderdog'
-    site.urlRoot = '/wunderdog/'
+    site.url = 'http://www.thewunderdog.com'
+    site.urlRoot = '/'
 }
 
 
