@@ -2119,12 +2119,11 @@ body {
       body.home .slideshow div img {
         z-index: 1; }
     body.home .slideshow button {
-      display: none; }
+      display: none;
+      background: transparent; }
     body.home .slideshow:hover button {
       display: block;
       position: absolute;
-      background: black;
-      background: rgba(0, 0, 0, 0.5);
       border: none;
       outline: none;
       font-size: 2em;
@@ -2136,8 +2135,6 @@ body {
         right: 10px; }
       body.home .slideshow:hover button:hover {
         color: #ee1d25;
-        background: white;
-        background: rgba(255, 255, 255, 0.5);
         cursor: pointer; }
   body.home h1, body.home h2, body.home h3, body.home h4, body.home h5, body.home h6 {
     text-align: center; }
