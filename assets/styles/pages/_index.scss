@@ -33,12 +33,11 @@
     }
     button {
         display: none;
+        background: transparent;
     }
     &:hover button {
         display: block;
         position: absolute;
-        background: black;
-        background: rgba(0, 0, 0, 0.5);
         border: none;
         outline: none;
         font-size: 2em;
@@ -52,8 +51,6 @@
         }
         &:hover {
             color: $wunderdog-red;
-            background: white;
-            background: rgba(255, 255, 255, 0.5);
             cursor: pointer;
         }
     }
