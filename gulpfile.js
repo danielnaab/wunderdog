@@ -47,7 +47,7 @@ var site = {
     'url': 'http://localhost:9000',
     'urlRoot': '/',
     'author': 'Lynn Wunderli',
-    'email': 'lynn@thewunderdog.com',
+    'email': 'wunderdognh@yahoo.com',
     'time': new Date()
 }
 
