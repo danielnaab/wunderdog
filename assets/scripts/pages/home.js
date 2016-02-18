@@ -25,7 +25,7 @@ else {
 
 
 module.exports = function () {
-    var numSlides = 3
+    var numSlides = 4
     function move(diff, timer) {
         var match = $('.slideshow > input:checked').attr('id').match(/radio-(\d+)/)
         var curPage = match ? match[1] : 1
