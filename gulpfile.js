@@ -371,6 +371,7 @@ gulp.task('rss', ['posts'], function () {
                 page: file.page
             }
             var tpl = swig.compileFile(file.path)
+            console.log(data)
             file.contents = new Buffer(tpl(data), 'utf8')
             this.push(file)
             cb()

@@ -1,6 +1,6 @@
 ---
 published: true
-title: In The News...
+title: In The News
 date: 2012-07-14
 allowComments: true
 image: in-the-news.png
