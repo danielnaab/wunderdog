@@ -84,7 +84,8 @@ function applyTemplate(templateFile) {
         var data = {
             site: site,
             page: file.page,
-            content: file.contents.toString()
+            content: file.contents.toString(),
+            file: file
         }
         file.contents = new Buffer(tpl(data), 'utf8')
         this.push(file)
@@ -240,9 +241,11 @@ gulp.task('pages', ['cleanpages', 'testimonials', 'services',], function () {
     var html = gulp.src(['content/pages/*.html'])
         .pipe(frontMatter({property: 'page', remove: true}))
         .pipe(through.obj(function (file, enc, cb) {
+            file.page.url = path.basename(file.path)
             var data = {
                 site: site,
-                page: file.page
+                page: file.page,
+                file: file
             }
             var tpl = swig.compileFile(file.path)
             file.contents = new Buffer(tpl(data), 'utf8')
