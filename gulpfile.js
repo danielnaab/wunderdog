@@ -242,6 +242,9 @@ gulp.task('pages', ['cleanpages', 'testimonials', 'services',], function () {
         .pipe(frontMatter({property: 'page', remove: true}))
         .pipe(through.obj(function (file, enc, cb) {
             file.page.url = path.basename(file.path)
+            if (file.page.url == 'index.html') {
+                file.page.url = ''
+            }
             var data = {
                 site: site,
                 page: file.page,
