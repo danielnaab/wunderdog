@@ -44,4 +44,13 @@
             }
         }
     }
+    #staff-chelsea {
+        @include clearfix;
+        img {
+            &#chelsea-photo {
+                float: right;
+                padding: 1em;
+            }
+        }
+    }
 }
