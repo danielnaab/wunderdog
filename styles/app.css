@@ -2438,6 +2438,13 @@ body {
   body.about #staff #staff-peter img#peter-photo {
     float: left;
     padding: 1em; }
+  body.about #staff #staff-chelsea:after {
+    content: "";
+    display: table;
+    clear: both; }
+  body.about #staff #staff-chelsea img#chelsea-photo {
+    float: right;
+    padding: 1em; }
   body.contact form {
     padding: 1em; }
     body.contact form label {
@@ -2530,3 +2537,7 @@ body {
     body.testimonials article ul {
       float: right;
       font-style: italic; }
+
+blockquote {
+  padding: 1em 2em;
+  font-style: italic; }
