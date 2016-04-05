@@ -1,10 +1,11 @@
 ---
 published: true
-title: Backyard Breeders.... Who are They?
-date: 2012-02-01
+title: "Backyard Breeders.... Who are They?"
+date: "Tue Jan 31 2012 18:00:00 GMT-0600 (CST)"
 allowComments: true
-image: backyard-breeders.png
+image: "backyard-breeders.png"
 ---
+
 
 ## What does this title mean?
 
