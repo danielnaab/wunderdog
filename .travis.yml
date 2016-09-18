@@ -9,17 +9,17 @@ install:
   - npm install -g gulp
   - npm install
 before_script:
-  - git remote set-url origin "https://${GH_TOKEN}@github.com/danielnaab/wunderdog.git"
-  - git config --global user.email "dan@crushingpennies.com"
-  - git config --global user.name "Travis-CI"
+  - git remote set-url origin "https://${GH_TOKEN}@github.com/fabricioct/"
+  - git config --global user.email "fabriciocotta@gmail.com"
+  - git config --global user.name "fabricioct"
 script:
   - gulp deploy
 env:
   global:
-  - secure: "jTbRauX2+9E9WbSI6pu4oXO3P60d3KriWQr7sD39JArrXFqs3ZpeT0gdycmE4OlYS/t1MY7yzKFw2MPeyIO2tl5zIBRLx77GZRwqkKi0Y4Uu5nRNkOBiPsrVD7Iq5gLuknQGbLCHf2p+1MmtQbsuEVTSkV/FWzCxk2j0nRUm2ng="
+  - secure:"YQMnEABX2OytdxaTUg2qqBqHOf8HrT4t60KaWb4dP8Vk7d0TujxoSE4lXQk3mPpZ8seNnppo3z12qr7C+XhrebxsajYOBE8RfZftCa6wrvCq8UhwAVAdH5OeUNrm//5eOlnwLsCqH+NtenyHI2JDiEE6l6rM1uuIZfQRuzHbSpckrdAgULiZziWKg57mVNy9QiaGOWM7ipHgkAewNwVdOym4jAcMTsxYHipug8PPjs2IhV/IlZFFb63eIObDjYmqyYoGQzMU7I53m3dmHehfEICdVtC/bmS4mT0jh2wFUfNSTkhsEI5+hley0e2TvuzzG2BeaJ8ztFkoHp65WKglNFsUadQOUP2A11+2/+aaeyHKwA6e4fK2gUOyollzeYjMqniTCiP2/g5SwYIe3sacAUvcvAg3jiflBtyUkA02YoVmoSUnbL/YOWkFkBsdYJ4pEZpFMat9MGPn+dZok8FOmvDiyyVkcFQ1uRpH0IT9XXVSrgnNgxrd/mmbfey2/CMwbOm9kxOTJBn2w3xAh32ADZEOyTXV1VDyYvvJU7ym//a8e0Saq59kdwO4ltcW6K+HnHOUaeACbDvOSywZMXXk4VTY5WMfW/Jpg1iKumCLvvmdHjWTBQ7IemMSNsQ15NQo5LpJrGEkQx2yCPNBdz48nl6Im0gYn3HeplhSUcnJec0="
 notifications:
   email:
     recipients:
-      - danielnaab@gmail.com
+      - fabriciocotta@gmail.com     
     on_success: always
     on_failure: always
