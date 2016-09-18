@@ -9,14 +9,14 @@ install:
   - npm install -g gulp
   - npm install
 before_script:
-  - git remote set-url origin "https://${GH_TOKEN}@github.com/fabricioct/"
+  - git remote set-url origin "https://${GH_TOKEN}@github.com/fabricioct/fabricioct.github.io.git"
   - git config --global user.email "fabriciocotta@gmail.com"
   - git config --global user.name "fabricioct"
 script:
   - gulp deploy
 env:
   global:
-  - secure:"YQMnEABX2OytdxaTUg2qqBqHOf8HrT4t60KaWb4dP8Vk7d0TujxoSE4lXQk3mPpZ8seNnppo3z12qr7C+XhrebxsajYOBE8RfZftCa6wrvCq8UhwAVAdH5OeUNrm//5eOlnwLsCqH+NtenyHI2JDiEE6l6rM1uuIZfQRuzHbSpckrdAgULiZziWKg57mVNy9QiaGOWM7ipHgkAewNwVdOym4jAcMTsxYHipug8PPjs2IhV/IlZFFb63eIObDjYmqyYoGQzMU7I53m3dmHehfEICdVtC/bmS4mT0jh2wFUfNSTkhsEI5+hley0e2TvuzzG2BeaJ8ztFkoHp65WKglNFsUadQOUP2A11+2/+aaeyHKwA6e4fK2gUOyollzeYjMqniTCiP2/g5SwYIe3sacAUvcvAg3jiflBtyUkA02YoVmoSUnbL/YOWkFkBsdYJ4pEZpFMat9MGPn+dZok8FOmvDiyyVkcFQ1uRpH0IT9XXVSrgnNgxrd/mmbfey2/CMwbOm9kxOTJBn2w3xAh32ADZEOyTXV1VDyYvvJU7ym//a8e0Saq59kdwO4ltcW6K+HnHOUaeACbDvOSywZMXXk4VTY5WMfW/Jpg1iKumCLvvmdHjWTBQ7IemMSNsQ15NQo5LpJrGEkQx2yCPNBdz48nl6Im0gYn3HeplhSUcnJec0="
+  - secure:"c1oUqe73KkqOhvlmxIwPEjEnWz6BfXxbSwrDpZL0ROP+EmIq8GLBMki5QfvzGeg/+MiDSqs+cGrS0YrD5ffMT98xIQSSPUPg2iUhBzgSYNvcVUTrZNmPqATTBmjIJZB4nell3FTYpeJOGr844MNTJ0WCN7MyoQCgUVpKrSDy5K5n2ekkFjWeykGQrZs4CeWX7KezO7FTF4JQIdP0QzPpOHLAzXBbtXzRKFB113Yyn2DRqN4rc/AfLhOyxTFEIQbAAZ+gB3ZdbeoWoL0HiG/EKHmT5C2p+cU++w9TDbw2Thd/NKIUe2trXB9IFxSQgBTQKJPoZWIIIgCRfSY4rf6wZGVkgUOMNtbLPXTjZDGhzdf3yL4sBO+lXgFmDVcNhmUR7JJAaXHCGePHTj+B6JExKy/dlMLX71Rqvvy0PKSQT9tw6CF/Qw1eS58e7vyeOgZqNd6HYeWG/S64Y3v1qjjlnL3WqKi3DWBlttNBDzR++4d2cFFBVspWkODLVtp35Q49dKpEItn6Z7gYCsNVTeOocAeNiJgVcuiJ4Fy/XzlEqlAGStevQTvOuoBbKQPY9pCE51MODJ5QoUKwzgiRoV1Y7sGq+aMKwAqwExh5XnY8N9Xk1HImkaELYB6y9rWK6UPOAW97UefJDwtt8yFY50am7sobJVIiil2BlaQ/ulunc/g="
 notifications:
   email:
     recipients:
