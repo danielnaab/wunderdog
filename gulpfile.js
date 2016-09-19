@@ -41,7 +41,6 @@ else {
     DEBUG = USER_DEBUG !== 'false'
 }
 
-
 var site = {
     'title': 'Matemática Simples',
     'url': 'http://localhost:9000',
