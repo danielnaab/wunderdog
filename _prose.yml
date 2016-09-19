@@ -1,6 +1,6 @@
 prose:
   rooturl: 'content'
-  siteurl: 'http://blog.crushingpennies.com/wunderdog/'
+  siteurl: 'https://fabricioct.github.io/matematica/'
   media: 'content/media'
   metadata:
     content/posts:
