@@ -11,6 +11,11 @@
             "taskName": "default",
             "args": [],
             "isBuildCommand": true
+        },
+           { 
+            "taskName": "deploy",
+            "args": [],
+            "isBuildCommand": true
         }
     ]
 }
