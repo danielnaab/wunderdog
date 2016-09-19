@@ -4,22 +4,22 @@ branches:
   - master
 language: node_js
 node_js:
-  - "1.5.1"
+- 1.5.1
 install:
-  - npm install -g gulp
-  - npm install
+- npm install -g gulp
+- npm install
 before_script:
-  - git remote set-url origin "https://${GH_TOKEN}@github.com/fabricioct/matematica.git"
-  - git config --global user.email "fabriciocotta@gmail.com"
-  - git config --global user.name "fabricioct"
+- git remote set-url origin "https://${GH_TOKEN}@github.com/fabricioct/matematica.git"
+- git config --global user.email "fabriciocotta@gmail.com"
+- git config --global user.name "fabricioct"
 script:
-  - gulp deploy
+- gulp deploy
 env:
   global:
-  - secure: jTUq430txjzqmpm01bczDNV3BDsl6d0jKqKVRCx8mxE6BKJHM7ueqTlNOWzaZgs9gFrFQoPCW7M3hnvYfM/NecfGGrbHVjNTQYk3B2djYwwIcGpW1fI3YXQMTqo7hIcd07zQCkzal4kEDHTxgieEBOlmZzE+CpnIY6ClHjc9CV+0IQGc8ZaAQBFD6HchJNpp+5s8NJwt9YevuXeEcFtkMJsL4ys0/eFRbjPAGebDvkkQ1/WnXlbhwiLA3E9U3o62VfQnP1Yy4VfBb/QR3t22d2JrRKNQ326s3l2gzuo5l7SR02iB7j+WmskHFmdN8/z55O7i2V65NNiaX4HbEgsfyClmei1+W1GK1rDaPay9qfU5HCTL7MDsF2Bnqq1OLhZzyPXOBs27pZGgb6AAoVOPG3Ytq26qBWzZ9GSntYgrC7TEOkwTE206voQ/56Ekwn9RDalw9bmJT7h2OsSWDfGnOcDft/GJdQoo9MVMHnBC312z4sXZQAiCis85nC3IqV3y5i+Np7WUTr/G3q2iRLj4knmyEdTubt0RqGxWT9D4Kq5p++uTt9ndZ+VJ5b+5Lwy4USrwqRCmzZcJdZCYqawRhZ11Aawv9b380kZTNrdwMFhsv3NXgP2HupGHSjPTSY5Yyn7ck7MjqxKYNP89skX2l0sgX3tmQIH4mc1rHSZz6pc=
+    secure: 4Q1tLNU9h6cFqPhIJ6slMEN0Fq9S6jM5t2oMTBIQR+Q13AgZQQuUQ9rX5O5tFLq+PL4ZACsKrMUvccBRHNdnMARX4UP59RAVkF8YsO0o0sUQtEgfg1lVhD+LhqUbYs3ISi7ct03UCNCzfzh+UmsCyzQHMQagPOphOl9F1rhmcsLMN44RFwZG3EMkFf+sTUwHDWjUdnw2iCClzfdYX+0fg52q/bAX5YJ6LQ2p8S+G/ZJxf/L89pDSpSj66IjTHGcV56u2CjQYjLSeosubFC1Ah+LkMf7YjvWjnM/unvEeg5SFeHTLJtWnHGUMCacoBJ2V/nRQfIkD/n7pYoxQAikzg0fUiHF99bwgHF9OIhkW7syINn02SGculQlu799GjL7NHH+GMVXk6/gxkcHUhdvLU51azn9d0W54N94Ll12DEvw6+Rj8iOXFx/O89xkTZB1XcboNI3LpUp3BWXFb+OtX2CvdeUYbFLJvGyNcbcDa+Qj+DQlST7Gsa40Vg56imHDc+2ZgAJxKLKNPHzFJi7zO05vtrknoKbEZOIYi69ec80GVE8CCH1nLyBHaosvZqXhWHZsFv/kanPnlnSLqnP/Phpvs0lZcuF2CJuv1U06Gh2MV6u3h1Gdg/bVQR3xk/l+odS5oWCzrSPK2pkj+s+ZnBH/HWZz1VhFWm67uaUu6FDk=
 notifications:
   email:
     recipients:
-      - danielnaab@gmail.com
+    - danielnaab@gmail.com
     on_success: always
     on_failure: always
