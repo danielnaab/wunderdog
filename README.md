@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/danielnaab/wunderdog.svg)](https://travis-ci.org/danielnaab/wunderdog)
+[![Build Status](https://travis-ci.org/fabricioct/matematica.svg)](https://travis-ci.org/fabricioct/matematica)
 
 Static site generator for Wunderdog LLC.
 
