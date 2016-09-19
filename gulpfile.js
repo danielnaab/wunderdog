@@ -43,18 +43,18 @@ else {
 
 
 var site = {
-    'title': 'Wunderdog K-9 Care & Training',
+    'title': 'Matemática Simples',
     'url': 'http://localhost:9000',
     'urlRoot': '/',
-    'author': 'Lynn Wunderli',
-    'email': 'lynn@thewunderdog.com',
+    'author': 'Fabrício C.T.',
+    'email': 'fabriciocotta@gmail.com',
     'time': new Date()
 }
 
 
 // This is deployed to blog.crushingpennies.com/thewunderdog/ (for now).
 if (argv._.indexOf('deploy') > -1) {
-    site.url = 'http://www.thewunderdog.com'
+    site.url = 'https://fabricioct.github.io/matematica/'
     site.urlRoot = '/'
 }
 
