@@ -55,7 +55,7 @@ var site = {
 // This is deployed to blog.crushingpennies.com/thewunderdog/ (for now).
 if (argv._.indexOf('deploy') > -1) {
     site.url = 'https://fabricioct.github.io/matematica/'
-    site.urlRoot = './'
+    site.urlRoot = '/'
 }
 
 
