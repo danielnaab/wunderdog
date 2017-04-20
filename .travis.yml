@@ -4,22 +4,22 @@ branches:
   - master
 language: node_js
 node_js:
-  - "1.5.1"
+- 1.5.1
 install:
-  - npm install -g gulp
-  - npm install
+- npm install -g gulp
+- npm install
 before_script:
-  - git remote set-url origin "https://${GH_TOKEN}@github.com/danielnaab/wunderdog.git"
-  - git config --global user.email "dan@crushingpennies.com"
-  - git config --global user.name "Travis-CI"
+- git remote set-url origin "https://${GH_TOKEN}@github.com/fabricioct/matematica.git"
+- git config --global user.email "fabriciocotta@gmail.com"
+- git config --global user.name "fabricioct"
 script:
-  - gulp deploy
+- gulp deploy
 env:
   global:
-  - secure: "jTbRauX2+9E9WbSI6pu4oXO3P60d3KriWQr7sD39JArrXFqs3ZpeT0gdycmE4OlYS/t1MY7yzKFw2MPeyIO2tl5zIBRLx77GZRwqkKi0Y4Uu5nRNkOBiPsrVD7Iq5gLuknQGbLCHf2p+1MmtQbsuEVTSkV/FWzCxk2j0nRUm2ng="
+    secure: 4Q1tLNU9h6cFqPhIJ6slMEN0Fq9S6jM5t2oMTBIQR+Q13AgZQQuUQ9rX5O5tFLq+PL4ZACsKrMUvccBRHNdnMARX4UP59RAVkF8YsO0o0sUQtEgfg1lVhD+LhqUbYs3ISi7ct03UCNCzfzh+UmsCyzQHMQagPOphOl9F1rhmcsLMN44RFwZG3EMkFf+sTUwHDWjUdnw2iCClzfdYX+0fg52q/bAX5YJ6LQ2p8S+G/ZJxf/L89pDSpSj66IjTHGcV56u2CjQYjLSeosubFC1Ah+LkMf7YjvWjnM/unvEeg5SFeHTLJtWnHGUMCacoBJ2V/nRQfIkD/n7pYoxQAikzg0fUiHF99bwgHF9OIhkW7syINn02SGculQlu799GjL7NHH+GMVXk6/gxkcHUhdvLU51azn9d0W54N94Ll12DEvw6+Rj8iOXFx/O89xkTZB1XcboNI3LpUp3BWXFb+OtX2CvdeUYbFLJvGyNcbcDa+Qj+DQlST7Gsa40Vg56imHDc+2ZgAJxKLKNPHzFJi7zO05vtrknoKbEZOIYi69ec80GVE8CCH1nLyBHaosvZqXhWHZsFv/kanPnlnSLqnP/Phpvs0lZcuF2CJuv1U06Gh2MV6u3h1Gdg/bVQR3xk/l+odS5oWCzrSPK2pkj+s+ZnBH/HWZz1VhFWm67uaUu6FDk=
 notifications:
   email:
     recipients:
-      - danielnaab@gmail.com
+    - fabriciocotta@gmail.com
     on_success: always
     on_failure: always

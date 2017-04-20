@@ -1,9 +1,9 @@
 prose:
-  rooturl: 'content'
-  siteurl: 'http://blog.crushingpennies.com/wunderdog/'
+  rooturl: 'matematica/content'
+  siteurl: 'https://fabricioct.github.io/matematica/'
   media: 'content/media'
   metadata:
-    content/posts:
+    matematica/content/posts:
       - name: "published"
         field:
           element: "checkbox"
@@ -32,7 +32,7 @@ prose:
           value: true
           on: "true"
           off: "false"
-    content/testimonials:
+    matematica/content/testimonials:
       - name: "published"
         field:
           element: "checkbox"
