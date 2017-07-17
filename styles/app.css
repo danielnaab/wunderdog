@@ -2716,6 +2716,10 @@ body {
     padding: 1em;
     border-bottom: solid 1px lightgray;
     min-height: 180px; }
+    body.blog .post-snippet:after {
+      content: "";
+      display: table;
+      clear: both; }
     body.blog .post-snippet h3 {
       float: right;
       font-weight: normal;
@@ -2727,7 +2731,8 @@ body {
       padding: 1em; }
   body.journal article img {
     float: right;
-    padding: 1em; }
+    padding: 1em;
+    max-width: 50%; }
   body.services p.intro {
     font-size: 120%; }
   body.services #menu-container {
