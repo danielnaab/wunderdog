@@ -7,7 +7,7 @@
         {% endfor %}
     </p>
     <p>
-        {% if post.image %}<img src="{{site.urlRoot}}images/posts/{{post.image}}" alt="{{post.title}}">{% endif %}
+        {% if post.image %}<a href="{{post.url}}"><img src="{{site.urlRoot}}images/posts/{{post.image}}" alt="{{post.title}}"></a>{% endif %}
         {{post.summary|truncate(300)|safe}}
     </p>
     <i class="fa fa-caret-right"></i>

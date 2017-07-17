@@ -1,7 +1,7 @@
 ---
 published: true
 title: "Backyard Breeders.... Who are They?"
-date: "Tue Jan 31 2012 18:00:00 GMT-0600 (CST)"
+date: 2012-01-31
 allowComments: true
 image: "backyard-breeders.png"
 ---
