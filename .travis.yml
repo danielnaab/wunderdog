@@ -4,7 +4,7 @@ branches:
   - master
 language: node_js
 node_js:
-  - "1.5.1"
+  - "8.9.3"
 install:
   - npm install -g gulp
   - npm install
