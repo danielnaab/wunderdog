@@ -110,6 +110,12 @@ section {
         p {
             font-size: 110%;
         }
+        a {
+            color: darkgray;
+            i, &:hover {
+                color: $wunderdog-red;
+            }
+        }
     }
     &.info {
         text-align: center;
