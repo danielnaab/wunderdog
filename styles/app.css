@@ -2606,6 +2606,10 @@ body {
         font-color: black; }
       body.home section.welcome p {
         font-size: 110%; }
+      body.home section.welcome a {
+        color: darkgray; }
+        body.home section.welcome a i, body.home section.welcome a:hover {
+          color: #ee1d25; }
     body.home section.info {
       text-align: center;
       background-color: white; }
