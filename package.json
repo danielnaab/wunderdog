@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Wunderdog LLC Website",
   "main": "gulpfile.js",
+  "engines": {
+    "node": "9.7.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
