@@ -2699,6 +2699,9 @@ body {
   body.about #staff #staff-chelsea img#chelsea-photo {
     float: right;
     padding: 1em; }
+  body.about #staff #staff-hannah img#hannah-photo {
+    float: left;
+    padding: 1em; }
   body.contact form {
     padding: 1em; }
     body.contact form label {
