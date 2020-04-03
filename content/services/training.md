@@ -43,36 +43,7 @@ Bundles are not applicable for Behavioral Modification or Separation Anxiety con
 
 ## Group classes
 
-Times/location vary; call or email for info!
-
-## "Nature vs Nurture"
-
-Latest: Dates and Times To Be Posted!
-
-Held Wednesdays at Camp K9, Madison, WI
-
- *Great Beginnings Wunderpups* ($125) 6 week class (meets once per week) for the beginning team!  FOR PUPPIES 16 WEEKS TO 5 MONTHS. Learn the basics:  HOW TO WALK ON LEASH, SIT, AND DOWN. Playtime for those who would like their puppy to participate always follows our class (15 to 20 minutes maximum)
-"MIDDLES GREAT BEGINNINGS:"  ($125) 6 week class (meets once per week) for pups/adolescents/adults (5 months and up). This class is a wonderful way to continue your puppy after Littles Beginning Obedience, to start the newly-acquired addition to the family, or for the dog that needs some "refreshing."  Lessons learned:  HEEL, SIT, DOWN, WAIT (or, STAY). Playtime to follow for those interested in allowing their dog some added FUN!
-
-*Nature vs Nurture* ($125) 6 week class (meets once per week):
-This class is for owners who want to learn more about their dog's behaviors (and what to do about unwanted behaviors), and who also want to expose their dog to unfamiliar dogs and humans in a safe, controlled, fun, and healthy environment.
-Come spend an hour weekly with us!  You will learn more than you ever thought possible!
-- *Behavior* Learn about basic dog behavior and how your dog's innate temperament and and/or previous experiences can affect the way he/she behaves. Learn how you can help increase your dog's comfort level in strange surroundings, different settings, etc.
-- *Air Your Dirty Laundry* During each class, participants will be required to bring in one question for discussion for the Trainer's possible solution(s). Instruction will be given within the group, and possible demonstrations, modifications/suggestions given to owners.
-- *Play!* A structured play time will wrap up each session (dogs that are able to play with others in a group).
-- *Time Requisite* The class will last approximately 1 hour in length (although first class will be longer for acclimation and assessments
-
-### Class Requirements
-
-- Each dog needs to be under the owner's control at all times. Appropriate training equipment* specific to each individual dog's needs must be used at all times on any property where class will take place. (*Exception:  NO CHOKE COLLARS.)
-- Each dog MUST be up-to-date on all vaccinations, INCLUDING BORDETELLA (Canine Cough).
-- Each owner will be responsible for bringing paper and pen for taking notes.*   (*Paper and pen will also be available for purchase at the first class if needed)
-- If owner is unsure of dog's ability to remain under control, and suspects their dog to be disruptive past the 'settling-in period' of each class, an appointment can be made for a behavioral assessment prior to class (before class commencement or afterwards).
-
-If assessment requires more than 15 minutes of Trainer's time (and there are no immediate solutions), an appointment can be made for a full behavioral evaluation, scheduled at the owner's convenience. (Wunderdog's training fees will then apply. Reassessment for class participation will be determined after behavioral evaluation.)
-
-- Class fees will be refunded or transferred towards another class if participant cancels within 5 days prior to onset of first class.
-- Class fees are non-refundable once class has commenced (regardless of reason for dropping).
+Wunderdog holds classes at <a href="https://www.zendogscenter.com/">Zen Dogs Center</a> in Waunakee; for information on upcoming classes, please inquire at <a href="https://www.zendogscenter.com/">www.zendogscenter.com</a> or email Lynn directly at <a href="mailto:Lynn@thewunderdog.com">Lynn@thewunderdog.com</a>.
 
 ## Lynn Wunderli is a certified AKC CGC Evaluator!
 
