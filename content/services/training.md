@@ -7,9 +7,9 @@ title: Training
 ## Personal consultation fees
 
 "GREAT BEGINNINGS/THE BASICS & FINE TUNING" INITIAL CONSULTATION:
-Up to 2 hours:  $195 flat fee (after 2 hours, HOURLY RATE WILL APPLY). Includes one follow up phone call or email at no extra charge (phone call is limited to 15 minutes), and ALL FAMILY MEMBERS ARE WELCOME!
+Up to 2 hours:  $200 flat fee (after 2 hours, HOURLY RATE WILL APPLY). Includes one follow up phone call or email at no extra charge (phone call is limited to 15 minutes), and ALL FAMILY MEMBERS ARE WELCOME (over the age of 6 years)!
 
-This (up to 2 hours) session is terrific for those clients with new puppies, or those with any new addition to their family wishing to start off with all the advantages!  This session covers a complete intake-evaluation, basic temperament assessment, and protocol/program. You wil learn A LOT in this session, and will receive a computer generated report within one week of the appointment.
+This (up to 2 hours) session is terrific for those clients with new puppies, or those with any new addition to their family wishing to start off with all the advantages.  This session covers a complete intake-evaluation, basic temperament assessment, and protocol/program. You will learn A LOT in this session, and will receive applicable handouts to start your puppy workbook.  *Most clients choose follow up sessions based on individual needs and as recommended by trainer.
 
 ## Behavioral modification initial consultation
 
@@ -26,16 +26,16 @@ Up to 2 hours:  $250 flat fee (after 2 hours, HOURLY RATE WILL APPLY).
 Separation Anxiety (SA) is a complicated condition that cannot be modified with an "easy fix."  Therefore, diagnosis-then-prognosis/protocol/program is time-consuming and laborious for both Trainer and Owner(s). Owners/Clients MUST BE PREPARED TO COMMIT TO A MINIMUM OF 6 WEEKS, with a minimum of 1 hour per week of session training. Phone calls and emails are routinely excerised on average at least 2 to 3 times per week (at hourly rate).
 WE CAN HELP FIX THE "UNFIXABLE," but only with an owner's commitment and time/energy/financial expenditures associated with treatment.
 
-- Hourly rate: $95/HOUR (with Lynn Wunderli)
-- Telephone/email/Skype rate: $45/HOUR
+- Hourly rate: $125/HOUR (with Lynn Wunderli)
+- Telephone/email/Skype rate: $50/HOUR
 
-PACKAGES: After completing the Initial Consultation of "Great Beginnings/The Basics & Fine Tuning," clients can ADD follow up packages to help save time and money!
+PACKAGES: Save some money!
 
-## Follow-up bundles
-- 3 One-Hour Sessions = $240 (Save $45!)
-- 6 One-Hour Sessions = $490 (Save $80!)
+## Bundles
+- 3 One-Hour Sessions = $300 (Save $75!)
+- 6 One-Hour Sessions = $600 (Save $150!)
 
-All Follow Up Bundles must be used within 3 months of purchase. Wunderdog is not responsible for canceled appointments (unless emergency or illness by either party), and all packages are prepaid, non-transferable, and non-refundable.
+All Bundles must be used within 3 months of purchase. Wunderdog is not responsible for canceled appointments (unless emergency or illness by either party), and all packages are prepaid, non-transferable, and non-refundable.
 
 Bundle fees may be applied towards Skype, phone, and email sessions!
 
@@ -57,9 +57,9 @@ All dog owners are responsible, once their dog passes the exam, to submit their 
 
 Wunderdog's fees for having your dog tested are as follows:
 
-- 1 dog = $35
-- 2 dogs = $25/each
-- 3 or more dogs = $15/each
+- 1 dog = $40
+- 2 dogs = $30/each
+- 3 or more dogs = $25/each
 
 (Group class rates will be posted on the front page of this site.)
 
