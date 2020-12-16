@@ -41,6 +41,10 @@ Bundle fees may be applied towards Skype, phone, and email sessions!
 
 Bundles are not applicable for Behavioral Modification or Separation Anxiety consultations. These specialized programs require the initial consultation fees, then the hourly rate thereafter.
 
+## Hourly Rates
+Lynn's Hourly Rate:  $125/hr
+Hannah's Hourly Rate:  $80/hr
+
 ## Group classes
 
 Wunderdog holds classes at <a href="https://www.zendogscenter.com/">Zen Dogs Center</a> in Waunakee; for information on upcoming classes, please inquire at <a href="https://www.zendogscenter.com/">www.zendogscenter.com</a> or email Lynn directly at <a href="mailto:Lynn@thewunderdog.com">Lynn@thewunderdog.com</a>.
