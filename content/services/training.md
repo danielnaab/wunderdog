@@ -55,7 +55,7 @@ We will be offering classes to prepare your dog for CGC certification, but you a
 Review the outline listed on the AKC website to see if you and your dog are ready:
 http://www.akc.org/dog-owners/training/canine-good-citizen/
 
-Class schedules and fees will be posted periodically on our front page of this site.
+Class schedules and fees will be posted periodically on www.zendogscenter.com.
 All dog owners are responsible, once their dog passes the exam, to submit their own paperwork (prepared for you by Wunderdog) to the AKC, where a small administration fee (to AKC) will apply.
 
 Wunderdog's fees for having your dog tested are as follows:
