@@ -7,7 +7,7 @@ title: Training
 ## Personal consultation fees
 
 "GREAT BEGINNINGS/THE BASICS & FINE TUNING" INITIAL CONSULTATION:
-Up to 1.5 hours:  $200 flat fee (after 2 hours, HOURLY RATE WILL APPLY). Includes one follow up phone call or email at no extra charge (phone call is limited to 15 minutes), and ALL FAMILY MEMBERS ARE WELCOME (over the age of 6 years)!
+Up to 1.5 hours:  $200 flat fee (after 1.5 hours, HOURLY RATE WILL APPLY). Includes one follow up phone call or email at no extra charge (phone call is limited to 15 minutes), and ALL FAMILY MEMBERS ARE WELCOME (over the age of 6 years)!
 
 This (up to 2 hours) session is terrific for those clients with new puppies, or those with any new addition to their family wishing to start off with all the advantages.  This session covers a complete intake-evaluation, basic temperament assessment, and protocol/program. You will learn A LOT in this session, and will receive applicable handouts to start your puppy workbook.  *Most clients choose follow up sessions based on individual needs and as recommended by trainer.
 
