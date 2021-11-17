@@ -43,7 +43,6 @@ Bundles are not applicable for Behavioral Modification or Separation Anxiety con
 
 ## Hourly Rates
 Lynn's Hourly Rate:  $125/hr
-Hannah's Hourly Rate:  $80/hr
 
 ## Group classes
 
